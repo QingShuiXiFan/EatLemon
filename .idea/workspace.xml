@@ -16,8 +16,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+            <state relative-caret-position="312">
+              <caret line="33" column="29" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="29" />
               <folding>
                 <element signature="e#576#582#0" expanded="true" />
                 <element signature="e#583#589#0" expanded="true" />
@@ -30,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/css/style_index.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+              <caret line="120" column="13" selection-start-line="120" selection-start-column="13" selection-end-line="120" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -49,8 +49,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="640" />
-    <option name="y" value="43" />
+    <option name="x" value="1133" />
+    <option name="y" value="93" />
     <option name="width" value="979" />
     <option name="height" value="1040" />
   </component>
@@ -111,15 +111,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1547515758718</updated>
-      <workItem from="1547515760014" duration="6484000" />
+      <workItem from="1547515760014" duration="12710000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6484000" />
+    <option name="totallyTimeSpent" value="12710000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="512" y="35" width="783" height="832" extended-state="0" />
+    <frame x="907" y="75" width="783" height="832" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -147,8 +147,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        <state relative-caret-position="312">
+          <caret line="33" column="29" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="29" />
           <folding>
             <element signature="e#576#582#0" expanded="true" />
             <element signature="e#583#589#0" expanded="true" />
@@ -159,7 +159,7 @@
     <entry file="file://$PROJECT_DIR$/css/style_index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+          <caret line="120" column="13" selection-start-line="120" selection-start-column="13" selection-end-line="120" selection-end-column="13" />
         </state>
       </provider>
     </entry>
