@@ -54,7 +54,7 @@ body{
     margin-right: 100px;
     width: 100px;
     height: 30px;
-    background-color: rgb(189, 183, 107);
+    background-color: #c5464a;
     border-radius: 5px;
     line-height: 30px;
     text-align: center;
@@ -99,6 +99,11 @@ body{
     border-radius: 5px;
     background-color: white;
 }
+.cityinput{
+    float: left;
+    width: 60px;
+    height: 42px;
+}
 .searchBar{
     height: 200px;
     text-align: center;
@@ -108,22 +113,19 @@ form {
     width:600px;
     margin:0 auto;
 }
-input,button {
+button {
     border:none;
     outline:none;
-}
-input {
-    width:500px;
-    height:42px;
-    padding-left:13px;
-}
-button {
     height:46px;
     width:42px;
     cursor:pointer;
     position:absolute;
 }
-.searchBar input {
+.searchBar .add{
+    outline:none;
+    width:500px;
+    height:42px;
+    padding-left:13px;
     border:2px solid #c5464a;
     border-radius:5px;
     background: white;

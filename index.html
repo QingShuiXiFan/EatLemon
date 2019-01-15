@@ -5,9 +5,9 @@
     <title>洽柠檬</title>
     <link rel="stylesheet" type="text/css" href="css/style_index.css" />
     <script type="text/javascript" src="javascript/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript">
+    <link rel="stylesheet" href="cityselect/cityselect.css">
+    <script type="text/javascript" src="cityselect/cityselect.js"></script>
 
-    </script>
 </head>
 <body>
     <div class="header">
@@ -33,7 +33,8 @@
         </div>
         <div class="searchBar">
             <form>
-                <input type="text" placeholder="请输入你的收货地址（写字楼、校区、街道或者学校）">
+                <input type="text" class="cityinput" id="citySelect" placeholder="城市">
+                <input class="add" type="text" placeholder="请输入你的收货地址（写字楼、校区、街道或者学校）">
                 <button type="submit"></button>
             </form>
         </div>
@@ -44,6 +45,10 @@
     <div class="footer">
 
     </div>
+
+    <script type="text/javascript">
+        var test=new Vcity.CitySelector({input:'citySelect'});
+    </script>
 </body>
 
 </html>
