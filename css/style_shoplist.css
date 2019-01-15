@@ -1,0 +1,64 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+    display: block;
+    background: #f7f7f7;
+    padding-right: 35px;
+}
+a{
+    text-decoration: none;
+    font-family: "微软雅黑";
+	color: rgb(102, 102, 102);
+}
+ul,ol{
+	list-style: none;
+}
+.topbar{
+    font-size: 14px;
+    width: 960px;
+    height: 60px;
+    display: block;
+    line-height: 60px;
+    background: rgb(255, 165, 0);
+    margin: 0 auto;
+}
+.topbar div{
+    display: block;
+}
+.topbar ul li h1{
+    float: left;
+    font-weight: 400;
+}
+.topbar .logo a{
+    color: white;
+}
+.topbar-item{
+    float: left;
+    font-size: 16px;
+    position: relative;
+    color: #fff;
+    width: 104px;
+    text-align: center
+}
+.topbar-item.focus{
+    background: rgb(240, 156, 0);
+}
+.topbar-item.topbar-homeoage{
+    width: 112px;
+}
+.main{
+    font-size: 14px;
+    width: 960px;
+    display: block;
+    line-height: 60px;
+    margin: 0 auto;    
+}
+.main html{
+    color: #333;
+    text-rendering: optimizelegibility;
+}
+.main .recent{
+
+}
