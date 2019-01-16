@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f00ad3d-d8e0-4be8-b935-e76b152bb66e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/recruitment.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/recruitment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recruitment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/signInUp.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/signInUp.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style_index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style_index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/signInUp.html" beforeDir="false" afterPath="$PROJECT_DIR$/signInUp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/recruitment.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/recruitment.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recruitment.html" beforeDir="false" afterPath="$PROJECT_DIR$/recruitment.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,53 +17,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/recruitment.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3252">
-              <caret line="299" column="28" selection-start-line="299" selection-start-column="28" selection-end-line="299" selection-end-column="28" />
-              <folding>
-                <element signature="e#5520#15135#2" expanded="true" />
-                <element signature="e#15207#27670#2" expanded="true" />
-                <element signature="e#27742#36185#2" expanded="true" />
-                <element signature="e#36257#45164#2" expanded="true" />
-                <element signature="e#45236#53491#2" expanded="true" />
-                <element signature="e#53563#62490#2" expanded="true" />
-                <element signature="e#62562#66897#2" expanded="true" />
-                <element signature="e#66969#75664#2" expanded="true" />
-                <element signature="e#75736#83931#2" expanded="true" />
-                <element signature="e#84004#92247#2" expanded="true" />
-                <element signature="e#92320#99947#2" expanded="true" />
-                <element signature="e#100020#106779#2" expanded="true" />
-                <element signature="e#106852#118171#2" expanded="true" />
-                <element signature="e#118400#128239#2" expanded="true" />
-                <element signature="e#128312#137331#2" expanded="true" />
-                <element signature="e#137404#145443#2" expanded="true" />
-                <element signature="e#145516#155451#2" expanded="true" />
-                <element signature="e#155524#166995#2" expanded="true" />
-                <element signature="e#167068#177019#2" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/recruitment.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="173" column="9" selection-start-line="173" selection-start-column="9" selection-end-line="173" selection-end-column="9" />
+            <state relative-caret-position="207">
+              <caret line="178" column="11" lean-forward="true" selection-start-line="178" selection-start-column="11" selection-end-line="178" selection-end-column="11" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" />
                 <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#banner#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#div#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#1;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#div#1;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/footer.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/recruitment.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="82" column="10" lean-forward="true" selection-start-line="82" selection-start-column="10" selection-end-line="82" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -78,7 +59,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/recruitment.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
+            <state relative-caret-position="1127">
               <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
             </state>
           </provider>
@@ -94,6 +75,11 @@
         <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>con</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -118,17 +104,17 @@
         <option value="$PROJECT_DIR$/../../../饿了么-开店申请_files/vendor.js" />
         <option value="$PROJECT_DIR$/../../../饿了么-开店申请_files/vue-router.js" />
         <option value="$PROJECT_DIR$/../../../饿了么-开店申请_files/app.js" />
-        <option value="$PROJECT_DIR$/css/footer.css" />
         <option value="$PROJECT_DIR$/css/signInUp.css" />
-        <option value="$PROJECT_DIR$/css/recruitment.css" />
         <option value="$PROJECT_DIR$/js/recruitment.js" />
+        <option value="$PROJECT_DIR$/css/recruitment.css" />
+        <option value="$PROJECT_DIR$/css/footer.css" />
         <option value="$PROJECT_DIR$/recruitment.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="483" />
-    <option name="y" value="2" />
+    <option name="x" value="482" />
+    <option name="y" value="1" />
     <option name="width" value="1360" />
     <option name="height" value="1040" />
   </component>
@@ -144,6 +130,11 @@
             <path>
               <item name="EatLemon" type="b2602c69:ProjectViewProjectNode" />
               <item name="EatLemon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EatLemon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EatLemon" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="EatLemon" type="b2602c69:ProjectViewProjectNode" />
@@ -189,12 +180,13 @@
       <updated>1547515758718</updated>
       <workItem from="1547515760014" duration="24102000" />
       <workItem from="1547553532731" duration="4932000" />
-      <workItem from="1547600989657" duration="25377000" />
+      <workItem from="1547600989657" duration="25428000" />
+      <workItem from="1547641070732" duration="1202000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54411000" />
+    <option name="totallyTimeSpent" value="55664000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -368,13 +360,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/footer.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="157" column="20" selection-start-line="157" selection-start-column="20" selection-end-line="157" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/signInUp.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-230">
@@ -400,13 +385,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/recruitment.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/signInUp.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="446">
@@ -418,49 +396,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/recruitment.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1127">
+          <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/recruitment.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3252">
-          <caret line="299" column="28" selection-start-line="299" selection-start-column="28" selection-end-line="299" selection-end-column="28" />
-          <folding>
-            <element signature="e#5520#15135#2" expanded="true" />
-            <element signature="e#15207#27670#2" expanded="true" />
-            <element signature="e#27742#36185#2" expanded="true" />
-            <element signature="e#36257#45164#2" expanded="true" />
-            <element signature="e#45236#53491#2" expanded="true" />
-            <element signature="e#53563#62490#2" expanded="true" />
-            <element signature="e#62562#66897#2" expanded="true" />
-            <element signature="e#66969#75664#2" expanded="true" />
-            <element signature="e#75736#83931#2" expanded="true" />
-            <element signature="e#84004#92247#2" expanded="true" />
-            <element signature="e#92320#99947#2" expanded="true" />
-            <element signature="e#100020#106779#2" expanded="true" />
-            <element signature="e#106852#118171#2" expanded="true" />
-            <element signature="e#118400#128239#2" expanded="true" />
-            <element signature="e#128312#137331#2" expanded="true" />
-            <element signature="e#137404#145443#2" expanded="true" />
-            <element signature="e#145516#155451#2" expanded="true" />
-            <element signature="e#155524#166995#2" expanded="true" />
-            <element signature="e#167068#177019#2" expanded="true" />
-          </folding>
+        <state relative-caret-position="203">
+          <caret line="82" column="10" lean-forward="true" selection-start-line="82" selection-start-column="10" selection-end-line="82" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/footer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/recruitment.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="173" column="9" selection-start-line="173" selection-start-column="9" selection-end-line="173" selection-end-column="9" />
+        <state relative-caret-position="207">
+          <caret line="178" column="11" lean-forward="true" selection-start-line="178" selection-start-column="11" selection-end-line="178" selection-end-column="11" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#banner#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#1;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
