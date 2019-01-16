@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>商家页面</title>
+	<script type="text/javascript" src="/javascript/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$(".rstcategories .res").click(function(){
+				$(".rstcategories .res").removeClass("active");
+				$(this).addClass("active");
+			})
+		})
+	</script>
+	<link rel="stylesheet" href="css/style_shoplist.css" />
+    <style type="text/css">
+	</style>
+</head>
+<body>
+	<header class="topbar">
+		<ul>
+			<li>
+				<h1 class="logo">
+					<a href="#" class="icon-logo">
+						<span>洽柠檬</span>
+					</a>
+				</h1>
+				<a href="#" class="topbar-item topbar-homepage focus">首页</a>
+				<a href="#" class="topbar-item topbar-order">我的订单</a>
+				<a href="#" class="topbar-item topbar-about">关于</a>				
+			</li>
+		</ul>
+	</header>
+	<div class="main">
+		<div class="recent">
+			<div class="rstlocation">
+				<div class="location">
+					<span>当前位置：</span>
+					<span class="location-current">
+						<a href="#">中软国际</a>
+					</span>
+					<span class="location-change">
+						<a href="#">[切换地址]</a>
+					</span>
+				</div>
+				<div class="search" search-input>
+					<a class="search-btn icon-search" title="搜索商家或美食"><img src="img/icon-search.png"></a>
+					<!-- <label>搜索商家或美食</label> -->
+					<input id="globalsearch" class="search-input" placeholder="搜索商家，美食…">
+				</div>
+			</div>
+			<div class="rstcategories">
+				<span class="resclassify">商家分类:</span>
+				<a class="res active" href="">全部商家</a>
+				<a class="res" href="">美食</a>
+				<a class="res" href="">快餐便当</a>
+				<a class="res" href="">特色菜系</a>
+				<a class="res" href="">异国料理</a>
+			</div>
+			<div class="rstrestaurants">
+				<div class="rststream" style="height: 564px">
+					<div class="rstblock">
+						<div class="rstblock-logo">
+							<img src="img/icon_shop_01.png" class="rstblock-logo-icon" width="70" height="70">
+							<span class="rstblock-logo-text">21 分钟</span>
+						</div>
+						<div class="rstblock-content">
+							<div class="rstblock-title">1点点(中山2店)</div>
+							<div class="starrating icon-star">
+								<span class="icon-star" style="width:98%;"></span>
+							</div>
+							<div class="rstblock-cost">免配送费</div>
+							<div class="rstblock-activity">
+								<i style="background:#fff;color:#999999;border:1px solid;padding:0;">保</i>
+							</div>
+						</div>
+					</div>
+					<div class="rstblock">
+						<div class="rstblock-logo">
+							<img src="img/icon_shop_01.png" class="rstblock-logo-icon" width="70" height="70">
+							<span class="rstblock-logo-text">21 分钟</span>
+						</div>
+						<div class="rstblock-content">
+							<div class="rstblock-title">1点点(中山2店)</div>
+							<div class="starrating icon-star">
+								<span class="icon-star" style="width:98%;"></span>
+							</div>
+							<div class="rstblock-cost">免配送费</div>
+							<div class="rstblock-activity">
+								<i style="background:#fff;color:#999999;border:1px solid;padding:0;">保</i>
+							</div>
+						</div>
+					</div>
+					<div class="rstblock">
+						<div class="rstblock-logo">
+							<img src="img/icon_shop_01.png" class="rstblock-logo-icon" width="70" height="70">
+							<span class="rstblock-logo-text">21 分钟</span>
+						</div>
+						<div class="rstblock-content">
+							<div class="rstblock-title">1点点(中山2店)</div>
+							<div class="starrating icon-star">
+								<span class="icon-star" style="width:98%;"></span>
+							</div>
+							<div class="rstblock-cost">免配送费</div>
+							<div class="rstblock-activity">
+								<i style="background:#fff;color:#999999;border:1px solid;padding:0;">保</i>
+							</div>
+						</div>
+					</div>
+					<div class="rstblock">
+						<div class="rstblock-logo">
+							<img src="img/icon_shop_01.png" class="rstblock-logo-icon" width="70" height="70">
+							<span class="rstblock-logo-text">21 分钟</span>
+						</div>
+						<div class="rstblock-content">
+							<div class="rstblock-title">1点点(中山2店)</div>
+							<div class="starrating icon-star">
+								<span class="icon-star" style="width:98%;"></span>
+							</div>
+							<div class="rstblock-cost">免配送费</div>
+							<div class="rstblock-activity">
+								<i style="background:#fff;color:#999999;border:1px solid;padding:0;">保</i>
+							</div>
+						</div>
+					</div>
+					<div class="rstblock">
+						<div class="rstblock-logo">
+							<img src="img/icon_shop_01.png" class="rstblock-logo-icon" width="70" height="70">
+							<span class="rstblock-logo-text">21 分钟</span>
+						</div>
+						<div class="rstblock-content">
+							<div class="rstblock-title">1点点(中山2店)</div>
+							<div class="starrating icon-star">
+								<span class="icon-star" style="width:98%;"></span>
+							</div>
+							<div class="rstblock-cost">免配送费</div>
+							<div class="rstblock-activity">
+								<i style="background:#fff;color:#999999;border:1px solid;padding:0;">保</i>
+							</div>
+						</div>
+					</div>
+					<div class="rstblock">
+						<div class="rstblock-logo">
+							<img src="img/icon_shop_01.png" class="rstblock-logo-icon" width="70" height="70">
+							<span class="rstblock-logo-text">21 分钟</span>
+						</div>
+						<div class="rstblock-content">
+							<div class="rstblock-title">1点点(中山2店)</div>
+							<div class="starrating icon-star">
+								<span class="icon-star" style="width:98%;"></span>
+							</div>
+							<div class="rstblock-cost">免配送费</div>
+							<div class="rstblock-activity">
+								<i style="background:#fff;color:#999999;border:1px solid;padding:0;">保</i>
+							</div>
+						</div>
+					</div>
+					<div class="rstblock">
+						<div class="rstblock-logo">
+							<img src="img/icon_shop_01.png" class="rstblock-logo-icon" width="70" height="70">
+							<span class="rstblock-logo-text">21 分钟</span>
+						</div>
+						<div class="rstblock-content">
+							<div class="rstblock-title">1点点(中山2店)</div>
+							<div class="starrating icon-star">
+								<span class="icon-star" style="width:98%;"></span>
+							</div>
+							<div class="rstblock-cost">免配送费</div>
+							<div class="rstblock-activity">
+								<i style="background:#fff;color:#999999;border:1px solid;padding:0;">保</i>
+							</div>
+						</div>
+					</div>
+					<div class="rstblock">
+						<div class="rstblock-logo">
+							<img src="img/icon_shop_01.png" class="rstblock-logo-icon" width="70" height="70">
+							<span class="rstblock-logo-text">21 分钟</span>
+						</div>
+						<div class="rstblock-content">
+							<div class="rstblock-title">1点点(中山2店)</div>
+							<div class="starrating icon-star">
+								<span class="icon-star" style="width:98%;"></span>
+							</div>
+							<div class="rstblock-cost">免配送费</div>
+							<div class="rstblock-activity">
+								<i style="background:#fff;color:#999999;border:1px solid;padding:0;">保</i>
+							</div>
+						</div>
+					</div>
+					<div class="rstblock">
+						<div class="rstblock-logo">
+							<img src="img/icon_shop_01.png" class="rstblock-logo-icon" width="70" height="70">
+							<span class="rstblock-logo-text">21 分钟</span>
+						</div>
+						<div class="rstblock-content">
+							<div class="rstblock-title">1点点(中山2店)</div>
+							<div class="starrating icon-star">
+								<span class="icon-star" style="width:98%;"></span>
+							</div>
+							<div class="rstblock-cost">免配送费</div>
+							<div class="rstblock-activity">
+								<i style="background:#fff;color:#999999;border:1px solid;padding:0;">保</i>
+							</div>
+						</div>
+					</div>
+					<div class="rstblock">
+						<div class="rstblock-logo">
+							<img src="img/icon_shop_01.png" class="rstblock-logo-icon" width="70" height="70">
+							<span class="rstblock-logo-text">21 分钟</span>
+						</div>
+						<div class="rstblock-content">
+							<div class="rstblock-title">1点点(中山2店)</div>
+							<div class="starrating icon-star">
+								<span class="icon-star" style="width:98%;"></span>
+							</div>
+							<div class="rstblock-cost">免配送费</div>
+							<div class="rstblock-activity">
+								<i style="background:#fff;color:#999999;border:1px solid;padding:0;">保</i>
+							</div>
+						</div>
+					</div>
+					<div class="rstblock">
+						<div class="rstblock-logo">
+							<img src="img/icon_shop_01.png" class="rstblock-logo-icon" width="70" height="70">
+							<span class="rstblock-logo-text">21 分钟</span>
+						</div>
+						<div class="rstblock-content">
+							<div class="rstblock-title">1点点(中山2店)</div>
+							<div class="starrating icon-star">
+								<span class="icon-star" style="width:98%;"></span>
+							</div>
+							<div class="rstblock-cost">免配送费</div>
+							<div class="rstblock-activity">
+								<i style="background:#fff;color:#999999;border:1px solid;padding:0;">保</i>
+							</div>
+						</div>
+					</div>
+					<div class="rstblock">
+						<div class="rstblock-logo">
+							<img src="img/icon_shop_01.png" class="rstblock-logo-icon" width="70" height="70">
+							<span class="rstblock-logo-text">21 分钟</span>
+						</div>
+						<div class="rstblock-content">
+							<div class="rstblock-title">1点点(中山2店)</div>
+							<div class="starrating icon-star">
+								<span class="icon-star" style="width:98%;"></span>
+							</div>
+							<div class="rstblock-cost">免配送费</div>
+							<div class="rstblock-activity">
+								<i style="background:#fff;color:#999999;border:1px solid;padding:0;">保</i>
+							</div>
+						</div>
+					</div>
+					<div class="rstblock">
+						<div class="rstblock-logo">
+							<img src="img/icon_shop_01.png" class="rstblock-logo-icon" width="70" height="70">
+							<span class="rstblock-logo-text">21 分钟</span>
+						</div>
+						<div class="rstblock-content">
+							<div class="rstblock-title">1点点(中山2店)</div>
+							<div class="starrating icon-star">
+								<span class="icon-star" style="width:98%;"></span>
+							</div>
+							<div class="rstblock-cost">免配送费</div>
+							<div class="rstblock-activity">
+								<i style="background:#fff;color:#999999;border:1px solid;padding:0;">保</i>
+							</div>
+						</div>
+					</div>
+					<div class="rstblock">
+						<div class="rstblock-logo">
+							<img src="img/icon_shop_01.png" class="rstblock-logo-icon" width="70" height="70">
+							<span class="rstblock-logo-text">21 分钟</span>
+						</div>
+						<div class="rstblock-content">
+							<div class="rstblock-title">1点点(中山2店)</div>
+							<div class="starrating icon-star">
+								<span class="icon-star" style="width:98%;"></span>
+							</div>
+							<div class="rstblock-cost">免配送费</div>
+							<div class="rstblock-activity">
+								<i style="background:#fff;color:#999999;border:1px solid;padding:0;">保</i>
+							</div>
+						</div>
+					</div>
+					<div class="rstblock">
+						<div class="rstblock-logo">
+							<img src="img/icon_shop_01.png" class="rstblock-logo-icon" width="70" height="70">
+							<span class="rstblock-logo-text">21 分钟</span>
+						</div>
+						<div class="rstblock-content">
+							<div class="rstblock-title">1点点(中山2店)</div>
+							<div class="starrating icon-star">
+								<span class="icon-star" style="width:98%;"></span>
+							</div>
+							<div class="rstblock-cost">免配送费</div>
+							<div class="rstblock-activity">
+								<i style="background:#fff;color:#999999;border:1px solid;padding:0;">保</i>
+							</div>
+						</div>
+					</div>
+					<div class="rstblock">
+						<div class="rstblock-logo">
+							<img src="img/icon_shop_01.png" class="rstblock-logo-icon" width="70" height="70">
+							<span class="rstblock-logo-text">21 分钟</span>
+						</div>
+						<div class="rstblock-content">
+							<div class="rstblock-title">1点点(中山2店)</div>
+							<div class="starrating icon-star">
+								<span class="icon-star" style="width:98%;"></span>
+							</div>
+							<div class="rstblock-cost">免配送费</div>
+							<div class="rstblock-activity">
+								<i style="background:#fff;color:#999999;border:1px solid;padding:0;">保</i>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="fetchMoreRst"><a href="#">点击载入更多商家…</a></div>
+			</div>
+		</div>
+	</div>
+	<footer class="footer" role="contentinfo">
+
+	</footer>
+</body>
+</html>
