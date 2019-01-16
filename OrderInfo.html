@@ -1,0 +1,279 @@
+﻿<html>
+<head>
+    <title>洽柠檬</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/OrderInfo.css" />
+    <script type="text/javascript" src="javascript/jquery.js"></script>
+    <script type="text/javascript" src="javascript/OrderInfo.js"></script>
+</head>
+<body>
+    <div class="bg">
+        <div class="top">
+            <div class="location">
+                <span>当前位置：武汉理工大学（余家头校区） > 1点点（奥山世纪城店）> 订单信息</span>
+            </div>
+            <div class="user">
+                <div id="or">
+                    <span>▼</span>
+                </div>
+                <div id="name">
+                    <span>清水煮稀饭</span>
+                    <div class="topbar" hidden>
+                        <ul>
+                            <li>
+                                <div class="topbar_item">
+                                    <a href="#"><img src="img/u1.png"><span>个人中心</span></a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="topbar_item">
+                                    <a href="#"><img src="img/u2.png"><span>我的收藏</span></a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="topbar_item">
+                                    <a href="#"><img src="img/u3.png"><span>我的地址</span></a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="topbar_item">
+                                    <a href="#"><img src="img/u4.png"><span>安全设置</span></a>
+                                </div>
+                            </li>
+                            <li id="u5" class="topbar_item">
+                                <div>
+                                    <a href="#"><img src="img/u5.png"><span>退出登录</span></a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header">
+            <div id="logo">
+                <img src="img/logo.png" />
+            </div>
+            <div>
+                <span class="s">|&ensp;订单信息</span>
+            </div>
+            <div class="state3">
+                <span class="ss">━━━━③━━━━</span><br />
+                <span class="st">成功提交订单</span>
+            </div>
+            <div class="state2">
+                <span class="ss">━━━━②━━━━</span><br />
+                <span class="st">确认订单信息</span>
+            </div>
+            <div class="state1">
+                <span class="ss">━━━━①━━━━</span><br />
+                <span class="st">选择商品</span>
+            </div>
+        </div>
+        <div class="main">
+            <div class="order">
+                <div class="oh">
+                    <div class="oh1">
+                        订单详情
+                    </div>
+                    <div class="oh2">
+                        <a href="#">
+                            &lsaquo;返回商家修改
+                        </a>
+                    </div>
+                </div>
+                <div class="item">
+                    &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;商品&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;份数&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;小计（元）
+                </div>
+                <div class="good">
+                    <div class="good_name">
+                        <span>四季春茶(中杯)</span>
+                    </div>
+                    <div class="good_num">
+                        <input type="text" value="21.00" class="money" />
+                        <input type="button" class="sub" value="-" />
+                        <input type="text" value="3" class="num" />
+                        <input type="button" class="add" value="+" />
+                        <input class="prise" value="7" type="hidden" />
+                    </div>
+                </div>
+                <div class="good">
+                    <div class="good_name">
+                        <span>丝袜奶茶(中杯)</span>
+                    </div>
+                    <div class="good_num">
+                        <input type="text" value="12.00" class="money" />
+                        <input type="button" class="sub" value="-" />
+                        <input type="text" value="1" class="num" />
+                        <input type="button" class="add" value="+" />
+                        <input class="prise" value="12" type="hidden" />
+                    </div>
+                </div>
+                <div class="good">
+                    <div class="good_name">
+                        <span>波霸奶茶(中杯)</span>
+                    </div>
+                    <div class="good_num">
+                        <input type="text" value="26.00" class="money" />
+                        <input type="button" class="sub" value="-" />
+                        <input type="text" value="2" class="num" />
+                        <input type="button" class="add" value="+" />
+                        <input class="prise" value="13" type="hidden" />
+                    </div>
+                </div>
+                <div class="good">
+                    <div class="good_name">
+                        <span>柠檬养乐多(中杯)</span>
+                    </div>
+                    <div class="good_num">
+                        <input type="text" value="15.00" class="money" readonly/>
+                        <input type="button" class="sub" value="-" readonly/>
+                        <input type="text" value="1" class="num" readonly/>
+                        <input type="button" class="add" value="+" readonly/>
+                        <input class="prise" value="15" type="hidden" readonly/>
+                    </div>
+                </div>
+                <div class="peisong">
+                    <div class="peisong1">配送费</div>
+                    <div class="peisong2">4.00</div>
+                </div>
+                <div class="total">
+                    <span id="t1">总计：</span>
+                    <span id="t2">￥</span>
+                    <input type="text" value="51.00" class="total_prise" readonly/>
+                </div>
+            </div>
+            <div class="set">
+                <ul>
+                    <li>
+                        <div class="set_top">
+                            <span class="set_bar">收货地址</span>
+                            <a href="#">[添加新地址]</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="set_location_bg">
+                            <div class="set_location">
+                                <img src="img/OrderGPS.png" />
+                                <div>
+                                    <input type="text" class="set_location_name" value="XIFAN" readonly />
+                                    <input type="text" class="set_location_sex" value="先生" readonly /><br />
+                                    <input type="text" class="set_location_loa" value="武汉理工大学（余家头校区）海虹四栋" readonly />
+                                    <input type="button" class="set_location_set" value="修改×" readonly />
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="set_top">
+                            <div class="set_bar" id="payway">付款方式</div>
+                            <span id="paywayinfo">&ensp;推荐使用在线支付，不用找零，优惠更多</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pay_mode_bg">
+                            <div class="pay_mode">
+                                <p>在线支付</p>
+                                <span>支持卫星、支付宝、QQ钱包及大部分银行卡</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="set_top">
+                            <div class="set_bar">其他信息</div>
+                        </div>
+                        <div class="others">
+                            <div class="h_text">
+                                配送方式：&ensp;&ensp;&ensp;&ensp;本订单由&ensp;<a href="#">[商家]</a>&ensp;提供配送
+                            </div>
+                            <div class="h_text">
+                                订单备注：&ensp;&ensp;&ensp;
+                                <input type="text" value="" readonly />
+                            </div>
+                            <div class="h_text">
+                                送达时间：&ensp;&ensp;&ensp;&ensp;预计&ensp;12:56&ensp;送达
+                            </div>
+                        </div>
+                    </li>
+                    <li id="liok">
+                        <div class="ok">确认下单</div>
+                        <img src="img/download_app.png" class="app_img"/>
+                        <img src="img/download_link.png" class="app_link"  />
+                    </li>
+                </ul>
+            </div>
+            <div class="footer">
+
+            </div>
+            <div class="addressdialog" style="z-index: 1005; left: -227px; top: 169.5px;" hidden>
+                <div class="addressdialog-close">
+                </div>
+                <div class="addressdialog-header">
+                    添加新地址
+                </div>
+                <div class="addressdialog-content">
+                    <div class="addressform">
+                        <div>
+                            <div class="addressformfield">
+                                <label>姓名</label>
+                                <input placeholder="请输入您的姓名">
+                                <div class="addressformfield-hint">
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="addressformfield sexfield">
+                                <label>性别</label>
+                                <div>
+                                    <input id="sexfield-1-male" name="sex" type="radio" value="1">
+                                    <label for="sexfield-1-male">先生</label>
+                                    <input id="sexfield-1-female" type="radio" name="sex" value="2">
+                                    <label for="sexfield-1-female">女士</label>
+                                </div><div class="addressformfield-hint">
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="addressformfield addressfield">
+                                <label>位置</label>
+                                <img src="">
+                                <input placeholder="请输入小区、大厦或学校">
+                                <div class="address-suggestlist">
+                                    <ul></ul>
+                                </div>
+                                <div class="addressformfield-hint">
+                                    <span></span>
+                                </div>
+                                <div class="addressform-tip" style="display: none;">
+                                    <p>
+                                        <span>没找到你的地址？</span>
+                                        <a style="display: none;">去地图看看吧！</a>
+                                    </p>
+                                    <p>请尝试只输入小区、大厦或学校看看。</p>
+                                    <div class="arrow"></div>
+                                </div>
+                            </div>
+                            <div class="addressformfield">
+                                <label>详细地址</label>
+                                <input placeholder="单元、门牌号">
+                                <div class="addressformfield-hint">
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="addressformfield phonefield">
+                                <label>手机号</label>
+                                <input placeholder="请输入您的手机号">
+                                <div class="addressformfield-hint">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="addressform-buttons">
+                            <button>保存</button>
+                            <button>取消</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
