@@ -51,6 +51,7 @@
     background-color: white;
     border: none;
     z-index: 1;
+    cursor: pointer; /* 鼠标移入按钮范围时出现手势 */
 }
 .vcode{
     width: 280px;
