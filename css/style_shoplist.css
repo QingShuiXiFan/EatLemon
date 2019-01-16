@@ -60,5 +60,226 @@ ul,ol{
     text-rendering: optimizelegibility;
 }
 .main .recent{
+    font-size: 14px;
+    width: 960px;
+    margin: 0 auto;
+}
+/* .recent div{
+    display: block;
+} */
+.rstlocation {
+    height: 54px;
+}
+.location {
+    vertical-align: middle;
+    font-size: 12px;
+    float: left;
+}
+.location span:first-child{
+    color: #999;
+    margin-right: 5px;
+}
+.location span{
+    display: inline-block;
+    line-height: 54px;
+    vertical-align: top;
+}
+.search{
+    float: right;
+    margin: 10px 0;
+    height: 32px;
+    border: 1px solid #ccc;
+    background: #fff;
+    position: relative;
+    z-index: 3;
+}
+.search-btn {
+    float: right;
+    width: 46px;
+    text-align: center;
+    color: #999;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    outline: 0;
+    background-color: transparent;
+}
+.search-btn{
+    padding: 0 8px;
+    margin: 4px 0;
+    line-height: 24px;
+}
+button, input{
+    line-height: normal;
+}
+.search label{
+    float: left;
+}
+.search-input{
+    float: left;
+    padding: 0 8px;
+    margin: 4px 0;
+    line-height: 24px;
+    border: 0;
+    outline: 0;
+}
+.rstcategories {
+    line-height: 26px;
+    padding: 10px 10px 10px 7em;
+    background-color: #fff;
+    position: relative;
+    border: 1px solid #e6e6e6;
+    background: #fff;
+}
+.resclassify{
+    position: absolute;
+    top: 13px;
+    left: 10px;
+    color: #999;
+    padding: 0 10px;
+    margin-right: 8px;
+}
+.rstcategories .res{
+    white-space: nowrap;
+    display: inline-block;
+    margin: 5px 6px;
+}
+.rstcategories .res.active {
+    line-height: 36px;
+    background-color: #f6f6f6;
+    border-radius: 0;
+    margin: 0;
+    padding: 0 16px;
+    height: 38px;
+}
+.rstrestaurants {
+    position: relative;
+    border: 1px solid #e6e6e6;
+    border-bottom: 0;
+    margin-top: 20px;
+    background: #fff;
+}
+.rstblock{
+    float: left;
+    font-size: 12px;
+    position: relative;    
+}
+.rstblock{
+    background-color: #fff;
+    border-bottom: 1px #f5f5f5 solid;
+    width: 33.33333%;
+    height: 140px;
+    line-height: 18px;
+}
+.rstblock:hover{
+    background-color:#f5f5f5;
+}
+.rstblock:hover .rstblock-title{
+    color: rgb(253, 169, 13);
+}
+@media (min-width:1260px){.rstblock{width:25%}}
+.rstblock.noline{
+    border:none;
+    margin:0;
+}
+
+.rstblock-logo{
+    float: left;
+    font-size: 12px;
+    position: relative;    
+}
+.rstblock-logo {
+    padding: 20px;
+    color: #999;
+    text-align: center;
+}
+.rstblock-logo-icon {
+    display: block;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 10px;
+}
+.rstblock-content{
+    padding: 20px;
+}
+.rstblock-title {
+    font-size:16px;
+    margin-bottom:6px;
+    font-weight:600;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    color:#333;
+}
+.starrating {
+    position: relative;
+    display: inline-block;
+    line-height: 1em;
+    color: #ccc;
+}
+.starrating span:before, .starrating:before {
+    content: "\2605\2605\2605\2605\2605";
+}
+.starrating .icon-star {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    color: #ffc30c;
+    white-space: nowrap;
+}
+.rstblock-cost {
+    color: #999;
+    margin-top: 3px;
+}
+.rstblock-activity {
+    margin-top: 9px;
+}
+.rstblock-activity i{
+    display:inline-block;
+    vertical-align:middle;
+    color:#fff;
+    font-style:normal;
+    font-size:12px;
+    line-height:16px;
+    overflow:hidden;
+    text-align:center;
+    width:18px;
+    border-radius:2px;
+    margin-right:3px;
+    padding:1px;
+    background-color:#f63;
+    white-space:nowrap;
+}
+.rstblock-monthsales{
+    color:#999;
+    margin-left:10px;
+}
+.rstblock-phone,.rstblock-relaxing,.rstblock-schedule{
+    display:inline-block;
+    line-height:20px;
+    margin-top:8px;
+    padding:0 6px;
+    border-radius:3px;
+}
+.rstblock-relaxing{
+    color:#fff;
+    background:#666;
+}
+.rstblock-schedule{
+    background-color:#fff;
+    color:#14ae18;
+    border:1px solid #14ae18;
+    line-height:18px;
+}
+.rstblock-phone{background-color:#f4f4f4;
+    border:1px solid #ddd;
+    color:#666;
+    line-height:18px;
+}
+#fetchMoreRst {
+    background-image: linear-gradient(to bottom,#f9f9f9,#eee);
+    color: #777;
+    text-align: center;
 
 }
