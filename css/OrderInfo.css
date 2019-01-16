@@ -1,0 +1,446 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Î¢ÈíÑÅºÚ";
+}
+
+a{
+   text-decoration:none;
+}
+
+ul{
+    list-style:none;
+}
+
+.bg{
+    background-color:rgb(240,240,240);
+    height:2000px;
+}
+
+.top{
+    background-color:orange;
+    width:auto;
+    height:30px;
+}
+
+.location{
+    font-size:14px;
+    padding-top:6px;
+    padding-left:120px;
+    color:white;
+    float:left;
+}
+
+.user{
+    font-size:14px;
+    padding-top:4px;
+    padding-right:180px;
+    float:right;
+    color:white;
+    background-color:orange;
+    width:120px;
+    height:26px;
+}
+
+#or {
+    float: right;
+    border-radius: 8px;
+    border: 1px solid rgb(270,180,0);
+    background-color: rgb(270,180,0);
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+
+#name{
+    padding-top:2px;
+    position:absolute;
+}
+
+.topbar{
+    position:absolute;
+    top:25px;
+    left:0px;
+    background-color:white;
+    width:120px;
+}
+
+.topbar_item {
+    margin:3px auto;
+    width:110px;
+    height:30px;
+}
+
+.topbar_item a img {
+    float: left;
+}
+
+.topbar_item a span{
+    padding-top:5px;
+    float:left;
+    color:rgb(107,107,107);
+}
+
+.header {
+    height: 100px;
+    width: auto;
+    border-top: 1px solid orangered;
+    background-color: orange;
+    overflow: hidden;
+}
+
+#logo{
+    float:left;
+    padding-top:5px;
+    padding-left:120px;
+}
+
+.s{
+    float:left;
+    padding-top:35px;
+    color:white;
+    font-size:30px;
+}
+
+.state1{
+    padding-top:40px;
+    float:right;
+    color:lightcyan;
+    text-align:center;
+}
+
+.state2 {
+    padding-top: 40px;
+    float: right;
+    color: lightcyan;
+    text-align: center;
+}
+
+.state3 {
+    padding-right: 180px;
+    padding-top: 40px;
+    float: right;
+    color: rgb(255,200,50);
+    text-align: center;
+}
+
+.ss{
+    font-size:24px;
+}
+
+.st{
+    font-size:12px;
+}
+
+.main{
+    margin:15px auto;
+    width:1200px;
+    height:auto;
+}
+
+.order{
+    float:left;
+    background-color:white;
+    width:400px;
+    height:auto;
+    border:1px solid rgb(200,200,200);
+}
+
+.oh{
+    width:400px;
+    height:39px;
+    border-bottom:1px solid rgb(200,200,200);
+}
+
+.oh1{
+    padding-top:8px;
+    padding-left:10px;
+    font-size:20px;
+    font-weight:700;
+    float:left;
+}
+
+.oh2 {
+    padding-top: 20px;
+    padding-right: 15px;
+    font-size: 12px;
+    float: right;
+}
+
+.oh2 a{
+    color: rgb(200,200,200);
+}
+
+.item{
+    font-size:12px;
+    color:rgb(153,153,153);
+    height:20px;
+    padding-top:4px;
+}
+
+.good {
+    background-color: rgb(250,250,250);
+    padding-top: 24px;
+    height: 48px;
+    border-top: 1px solid rgb(230,230,230);
+    border-bottom: 1px solid rgb(230,230,230);
+}
+
+.good_name{
+    float:left;
+    font-size:14px;
+    color:rgb(102,102,102);
+    padding-left:10px;
+}
+
+.sub {
+    float: right;
+    border: 1px solid rgb(207,207,207);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    background-color: rgb(207,207,207);
+}
+
+.num {
+    float: right;
+    width: 30px;
+    height: 24px;
+    border-top: 1px solid rgb(207,207,207);
+    border-bottom: 1px solid rgb(207,207,207);
+    border-left:0;
+    text-align: center;
+}
+
+.add {
+    float: right;
+    border: 1px solid rgb(207,207,207);
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    background-color: rgb(207,207,207);
+}
+
+.money {
+    padding-top:3px;
+    float: right;
+    width: 150px;
+    border: 0px;
+    color: rgb(107,107,107);
+    text-align:center;
+    background-color:rgb(250,250,250);
+}
+
+.peisong {
+    height: 48px;
+    background-color: rgb(250,250,250);
+    padding-top:24px;
+}
+
+.peisong1 {
+    height: 30px;
+    float: left;
+    padding-left: 10px;
+    color: rgb(107,107,107);
+    font-size: 14px;
+}
+
+.peisong2 {
+    height: 30px;
+    float: right;
+    padding-right: 60px;
+    color: rgb(107,107,107);
+    font-size: 14px;
+}
+
+.total{
+    margin-top:50px;
+    margin-left:220px;
+}
+
+.total_prise{
+    width:100px;
+    font-size:32px;
+    color:red;
+    border:0;
+}
+
+#t1 {
+    font-size: 14px;
+    color: rgb(107,107,107);
+    font-weight:500;
+}
+
+#t2 {
+    font-size: 14px;
+    color: red;
+    font-weight:500;
+}
+
+.set {
+    margin-left: 15px;
+    float: left;
+    background-color: white;
+    width: 725px;
+    height: 540px;
+    border: 1px solid rgb(200,200,200);
+}
+
+.set ul li{
+    clear:both;
+    margin-top:8px
+}
+
+.set_top{
+    width:725px;
+    height:30px;
+}
+
+.set_top .set_bar{
+    padding-left:10px;
+    padding-right:50px;
+    font-size:20px;
+    font-weight:700;
+}
+
+.set_top a{
+    text-decoration:none;
+    font-size:14px;
+}
+
+.set_location_bg{
+    padding-top:0px;
+    padding-left:32px;
+    width:655px;
+}
+
+.set_location {
+    border: 1px solid orange;
+    height:75px;
+}
+
+.set_location img{
+    float:left;
+}
+
+.set_location div{
+    padding-top:16px;
+    padding-left:20px;
+}
+
+.set_location_name{
+    border:0;
+}
+
+.set_location_sex {
+    border:none;
+}
+
+.set_location_loa{
+    border:none;
+}
+
+.set_location_set{
+    border:none;
+    background:white;
+    float:right;
+    margin-right:50px;
+}
+
+#payway{
+    float:left;
+}
+
+#paywayinfo{
+    float:left;
+    padding-top:6px;
+    font-size:14px;
+    color:orange;
+}
+
+.pay_mode_bg {
+    padding-top: 0px;
+    padding-left: 32px;
+    width: 330px;
+}
+
+.pay_mode {
+    border: 1px solid rgb(24,138,225);
+    height:75px;
+    background: url(../img/pay.png) right bottom no-repeat;
+}
+
+.pay_mode p{
+    padding-top:16px;
+    padding-left:20px;
+}
+
+    .pay_mode span {
+        padding-left: 20px;
+        color:rgb(100,100,100);
+        font-size:14px;
+    }
+
+.others{
+
+}
+
+.h_text{
+    padding-top:18px;
+    padding-left:30px;
+}
+
+.h_text a{
+    color:aqua;
+}
+
+.h_text input{
+    width:300px;
+}
+
+.ok{
+    float:left;
+    font-size:20px;
+    border-radius:4px;
+    border:4px solid orangered;
+    color:white;
+    background:orangered;
+    margin-left:20px;
+    margin-top:50px;
+}
+
+.app_img {
+    float: left;
+    margin-left: 297px;
+    margin-top: 30px;
+
+}
+
+.app_link {
+    position: absolute;
+    top: 124px;
+    left: 427px;
+    border:1px solid rgb(200,200,200);
+    display: none;
+}
+
+#liok {
+    position: absolute;
+}
+
+.app_img hover.app_link{
+    visibility:visible;
+}
+
+.addressdialog{
+    width:1000px;
+    height:800px;
+    position:fixed;
+    top:50%;
+    left:50%;
+    margin:auto;
+}

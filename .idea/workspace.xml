@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f00ad3d-d8e0-4be8-b935-e76b152bb66e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/js/signInUp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/recruitment.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/recruitment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recruitment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/signInUp.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/signInUp.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style_index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style_index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/css/signInUp.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/signInUp.html" beforeDir="false" afterPath="$PROJECT_DIR$/signInUp.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -19,16 +24,62 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/recruitment.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="35" column="84" selection-start-line="35" selection-start-column="84" selection-end-line="35" selection-end-column="84" />
+            <state relative-caret-position="-3252">
+              <caret line="299" column="28" selection-start-line="299" selection-start-column="28" selection-end-line="299" selection-end-column="28" />
+              <folding>
+                <element signature="e#5520#15135#2" expanded="true" />
+                <element signature="e#15207#27670#2" expanded="true" />
+                <element signature="e#27742#36185#2" expanded="true" />
+                <element signature="e#36257#45164#2" expanded="true" />
+                <element signature="e#45236#53491#2" expanded="true" />
+                <element signature="e#53563#62490#2" expanded="true" />
+                <element signature="e#62562#66897#2" expanded="true" />
+                <element signature="e#66969#75664#2" expanded="true" />
+                <element signature="e#75736#83931#2" expanded="true" />
+                <element signature="e#84004#92247#2" expanded="true" />
+                <element signature="e#92320#99947#2" expanded="true" />
+                <element signature="e#100020#106779#2" expanded="true" />
+                <element signature="e#106852#118171#2" expanded="true" />
+                <element signature="e#118400#128239#2" expanded="true" />
+                <element signature="e#128312#137331#2" expanded="true" />
+                <element signature="e#137404#145443#2" expanded="true" />
+                <element signature="e#145516#155451#2" expanded="true" />
+                <element signature="e#155524#166995#2" expanded="true" />
+                <element signature="e#167068#177019#2" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/recruitment.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="173" column="9" selection-start-line="173" selection-start-column="9" selection-end-line="173" selection-end-column="9" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" />
+                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#banner#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#1;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#1;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/recruitment.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="422">
+              <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -39,6 +90,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -51,18 +103,32 @@
       <list>
         <option value="$PROJECT_DIR$/css/cityselect.css" />
         <option value="$PROJECT_DIR$/cityselect/cityselect.css" />
-        <option value="$PROJECT_DIR$/css/style_index.css" />
         <option value="$PROJECT_DIR$/js/footer.js" />
         <option value="$PROJECT_DIR$/js/signInUp.js" />
-        <option value="$PROJECT_DIR$/signInUp.html" />
-        <option value="$PROJECT_DIR$/css/signInUp.css" />
+        <option value="$PROJECT_DIR$/css/recruitment.js" />
+        <option value="$PROJECT_DIR$/../../../饿了么-开店申请_files/style1536672475627.css" />
+        <option value="$PROJECT_DIR$/../../../饿了么-开店申请_files/饿了么-开店申请.html" />
+        <option value="$PROJECT_DIR$/css/style_index.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/signInUp.html" />
+        <option value="$PROJECT_DIR$/../../../饿了么-开店申请_files/app.css" />
+        <option value="$PROJECT_DIR$/../../../饿了么-开店申请_files/vue.js" />
+        <option value="$PROJECT_DIR$/../../../饿了么-开店申请_files/manifest.js" />
+        <option value="$PROJECT_DIR$/../../../饿了么-开店申请_files/store-helper_data/app.js" />
+        <option value="$PROJECT_DIR$/../../../饿了么-开店申请_files/vendor.js" />
+        <option value="$PROJECT_DIR$/../../../饿了么-开店申请_files/vue-router.js" />
+        <option value="$PROJECT_DIR$/../../../饿了么-开店申请_files/app.js" />
+        <option value="$PROJECT_DIR$/css/footer.css" />
+        <option value="$PROJECT_DIR$/css/signInUp.css" />
+        <option value="$PROJECT_DIR$/css/recruitment.css" />
+        <option value="$PROJECT_DIR$/js/recruitment.js" />
+        <option value="$PROJECT_DIR$/recruitment.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="382" />
-    <option name="y" value="21" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="483" />
+    <option name="y" value="2" />
     <option name="width" value="1360" />
     <option name="height" value="1040" />
   </component>
@@ -82,11 +148,6 @@
             <path>
               <item name="EatLemon" type="b2602c69:ProjectViewProjectNode" />
               <item name="EatLemon" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EatLemon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EatLemon" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -96,11 +157,13 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -126,17 +189,18 @@
       <updated>1547515758718</updated>
       <workItem from="1547515760014" duration="24102000" />
       <workItem from="1547553532731" duration="4932000" />
-      <workItem from="1547600989657" duration="6830000" />
+      <workItem from="1547600989657" duration="25377000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35864000" />
+    <option name="totallyTimeSpent" value="54411000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="306" y="17" width="1088" height="832" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.243346" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16776751" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -192,27 +256,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="89" column="13" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="89" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style_index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/footer.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/footer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -220,24 +263,136 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/style_index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="10" selection-start-line="10" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../饿了么-开店申请_files/style1536672475627.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/web开发/buttons.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="83" column="19" lean-forward="true" selection-start-line="83" selection-start-column="19" selection-end-line="83" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../饿了么-开店申请_files/vue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="2480" column="81" lean-forward="true" selection-start-line="2480" selection-start-column="81" selection-end-line="2480" selection-end-column="81" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../饿了么-开店申请_files/store-helper_data/app.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../饿了么-开店申请_files/vendor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3634">
+          <caret line="7" column="6" selection-end-line="10959" selection-end-column="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../饿了么-开店申请_files/vue-router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5290">
+          <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../饿了么-开店申请_files/manifest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="57" column="118" selection-start-line="57" selection-start-column="118" selection-end-line="57" selection-end-column="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../饿了么-开店申请_files/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../饿了么-开店申请_files/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="436" column="1" lean-forward="true" selection-start-line="436" selection-start-column="1" selection-end-line="436" selection-end-column="1" />
+          <folding>
+            <element signature="e#7296#16911#2" expanded="true" />
+            <element signature="e#16983#29446#2" expanded="true" />
+            <element signature="e#29518#37961#2" expanded="true" />
+            <element signature="e#38033#46940#2" expanded="true" />
+            <element signature="e#47012#55267#2" expanded="true" />
+            <element signature="e#55339#64266#2" expanded="true" />
+            <element signature="e#64338#68673#2" expanded="true" />
+            <element signature="e#68745#77440#2" expanded="true" />
+            <element signature="e#77512#85707#2" expanded="true" />
+            <element signature="e#85780#94023#2" expanded="true" />
+            <element signature="e#94096#101723#2" expanded="true" />
+            <element signature="e#101796#108555#2" expanded="true" />
+            <element signature="e#108628#119947#2" expanded="true" />
+            <element signature="e#120176#130015#2" expanded="true" />
+            <element signature="e#130088#139107#2" expanded="true" />
+            <element signature="e#139180#147219#2" expanded="true" />
+            <element signature="e#147292#157227#2" expanded="true" />
+            <element signature="e#157300#168771#2" expanded="true" />
+            <element signature="e#168844#178795#2" expanded="true" />
+            <element signature="e#237420#249791#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../饿了么-开店申请_files/饿了么-开店申请.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="148" column="68" selection-start-line="148" selection-start-column="68" selection-end-line="148" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/footer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="157" column="20" selection-start-line="157" selection-start-column="20" selection-end-line="157" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/signInUp.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="49" column="18" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
+        <state relative-caret-position="-230">
+          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/signInUp.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="135" column="20" selection-start-line="135" selection-start-column="20" selection-end-line="135" selection-end-column="20" />
+        <state relative-caret-position="473">
+          <caret line="156" column="1" lean-forward="true" selection-start-line="132" selection-end-line="156" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/signInUp.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        <state relative-caret-position="-322">
+          <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
           <folding>
             <element signature="n#style#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
@@ -245,14 +400,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/js/recruitment.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="35" column="84" selection-start-line="35" selection-start-column="84" selection-end-line="35" selection-end-column="84" />
+        <state relative-caret-position="422">
+          <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/signInUp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="98" selection-end-column="13" />
           <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/recruitment.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3252">
+          <caret line="299" column="28" selection-start-line="299" selection-start-column="28" selection-end-line="299" selection-end-column="28" />
+          <folding>
+            <element signature="e#5520#15135#2" expanded="true" />
+            <element signature="e#15207#27670#2" expanded="true" />
+            <element signature="e#27742#36185#2" expanded="true" />
+            <element signature="e#36257#45164#2" expanded="true" />
+            <element signature="e#45236#53491#2" expanded="true" />
+            <element signature="e#53563#62490#2" expanded="true" />
+            <element signature="e#62562#66897#2" expanded="true" />
+            <element signature="e#66969#75664#2" expanded="true" />
+            <element signature="e#75736#83931#2" expanded="true" />
+            <element signature="e#84004#92247#2" expanded="true" />
+            <element signature="e#92320#99947#2" expanded="true" />
+            <element signature="e#100020#106779#2" expanded="true" />
+            <element signature="e#106852#118171#2" expanded="true" />
+            <element signature="e#118400#128239#2" expanded="true" />
+            <element signature="e#128312#137331#2" expanded="true" />
+            <element signature="e#137404#145443#2" expanded="true" />
+            <element signature="e#145516#155451#2" expanded="true" />
+            <element signature="e#155524#166995#2" expanded="true" />
+            <element signature="e#167068#177019#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recruitment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="173" column="9" selection-start-line="173" selection-start-column="9" selection-end-line="173" selection-end-column="9" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" />
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#banner#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#1;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
