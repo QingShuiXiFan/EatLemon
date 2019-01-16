@@ -1,0 +1,131 @@
+*{margin:0;padding: 0;list-style: none;}
+.wrap{
+    width: 300px;
+    height: 580px;
+    position: relative;
+    margin: 1% auto 0;
+}
+.logo{
+    width: 185px;
+    height: 95px;
+    background: url("../img/logo2.png")0 0 no-repeat;
+    margin:0 auto;
+}
+.slogan{
+    text-align: center;
+}
+.slogan img{
+    width: 190px;
+}
+.from-box{
+    width: 300px;
+    height: 400px;
+    margin-top: 100px;
+}
+.input-box{
+    width: 300px;
+    height: 130px;
+    position: relative;
+}
+.mobile{
+    width: 280px;
+    height: 48px;
+    padding-left: 10px;
+    border:1px solid #ccc;
+    border-radius: 4px;
+    outline:none;
+    position: relative;
+    z-index: 1;
+}
+.mobile:focus{
+    border-color: #2395ff;
+}
+.sendmsg{
+    width: 80px;
+    height: 30px;
+    outline: none;
+    position: absolute;
+    right:10px;
+    top:10px;
+    color: #2395ff;
+    background-color: white;
+    border: none;
+    z-index: 1;
+}
+.vcode{
+    width: 280px;
+    height: 48px;
+    padding-left: 10px;
+    border:1px solid #ccc;
+    border-radius: 4px;
+    position: relative;
+    top: 20px;
+    outline:none;
+    color:#999;
+    z-index: 1;
+}
+.vcode:focus{
+    border-color: #2395ff;
+}
+.infor{
+    width: 300px;
+    height: 40px;
+    font-size: 14px;
+    color:#999;
+}
+.infor a{
+    font-size: 14px;
+    color:#2395ff;
+    text-decoration: none;
+}
+.login{
+    width: 300px;
+    height: 42px;
+    border:none;
+    background: #4cd96f;
+    color:white;
+    font-size: 16px;
+    border-radius:4px;
+    margin-top: 30px;
+    cursor: pointer;
+    outline: none;
+}
+.about a{
+    font-size: 12px;
+    color:#999;
+    text-decoration: none;
+}
+.mobile-err{
+    width: 400px;
+    height: 130px;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 200px;
+    left: -50px;
+    z-index: 0;
+    border-radius: 90px;
+    text-align: center;
+    line-height: 130px;
+    font-size: 50px;
+    color:white;
+    filter: alpha(opacity:0);
+    opacity: 0;
+
+}
+.vcode-err{
+    width: 400px;
+    height: 130px;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 200px;
+    left: -50px;
+    z-index: 0;
+    border-radius: 90px;
+    text-align: center;
+    line-height: 130px;
+    font-size: 50px;
+    color:white;
+    filter: alpha(opacity:0);
+    opacity: 0;
+
+}

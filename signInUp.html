@@ -2,185 +2,25 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<title>登录</title>
 	<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" name="viewport"/>
 	<meta content="yes" name="apple-mobile-web-app-capable"/>
 	<meta content="black" name="apple-mobile-web-app-status-bar-style"/>
 	<meta content="telephone=no" name="format-detection"/>
 	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/signInUp.css">
 	<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"> </script>
-	<script src="js/footer.js"></script>
-	<title>登录</title>
-	<style type="text/css">
-		 *{margin:0;padding: 0;list-style: none;}
-		 .wrap{
-		 	width: 300px;
-		 	height: 580px;
-		 	position: relative;
-		 	margin: 0 auto;
-		 	margin-top: 1%;
- 		 	}
- 		 .logo{
- 		 	width: 185px;
- 		 	height: 95px;
- 		 	background: url("img/logo2.png")0 0 no-repeat;
- 		 	margin:0 auto;
- 		 }
- 		 .title{
- 		 	width: 300px;
- 		 	height: 80px;
- 		 	line-height: 80px;
- 		 	text-align: center;
- 		 	font-size: 14px;
- 		 	font-weight: bold;
- 		 	color:#2395ff;
- 		 	position: absolute;
-   		 }
- 		 .border{
- 		 	 width: 60px;
- 		 	 height: 2px;
- 		 	 background: #2395ff;
- 		 	 position: absolute;
- 		 	 bottom: 25px;
- 		 	 left: 120px;
- 		 }
- 		 .from-box{
- 		 	width: 300px;
- 		 	height: 400px;
- 		 	position: absolute;
- 		 	top: 165px;
- 		 }
- 		 .input-box{
- 		 	width: 300px;
- 		 	height: 130px;
- 		 	position: relative;
- 		 }
- 		 .mobile{
- 		 	width: 280px;
- 		 	height: 48px;
- 		 	padding-left: 10px;
- 		 	border:1px solid #ccc;
- 		 	border-radius: 4px;
- 		 	position: relative;
- 		 	outline:none;
- 		 }
- 		 .mobile:focus{
- 		 	border-color: #2395ff;
- 		 }
- 		 .senmsg{
- 		 	width: 80px;
- 		 	height: 30px;
- 		 	border:none;
- 		 	outline: none;
- 		 	position: absolute;
- 		 	right:10px;
- 		 	top:10px;
- 		 	color: #ddd;
- 		 }
- 		 .vcode{
- 		 	width: 280px;
- 		 	height: 48px;
- 		 	padding-left: 10px;
- 		 	border:1px solid #ccc;
- 		 	border-radius: 4px;
- 		 	position: relative;
- 		 	top: 20px;
- 		 	outline:none;
- 		 	color:#999;
- 		 	z-index: 1;
-  		 	}
- 		.infor{
- 			width: 300px;
- 			height: 40px;
- 			font-size: 14px;
- 			color:#999;
- 		}
- 		.infor a{
- 			font-size: 14px;
- 			color:#2395ff;
- 			text-decoration: none;
- 		}
- 		.login{
- 			width: 300px;
- 			height: 42px;
- 			border:none;
- 			background: #4cd96f;
- 			color:white;
- 			font-size: 16px;
- 			border-radius:4px;
- 			margin-top: 30px;
- 			cursor: pointer;
- 			outline: none;
- 		}
- 		.about{
- 			text-align: center;
- 			margin-top: 20px;
- 		}
- 		.about a{
- 			font-size: 12px;
- 			color:#999;
- 			text-decoration: none;
- 		}
- 		.mobile-err{
- 			width: 400px;
- 			height: 130px;
- 			background: rgba(0,0,0,0.5);
- 			position: absolute;
- 			top: 200px;
- 			left: -50px;
- 			z-index: 0;
- 			border-radius: 90px;
- 			text-align: center;
- 			line-height: 130px;
- 			font-size: 50px;
- 			color:white;
- 			filter: alpha(opacity:0);
- 			opacity: 0;
- 			 
- 		}
- 		.vcode-err{
- 			width: 400px;
- 			height: 130px;
- 			background: rgba(0,0,0,0.5);
- 			position: absolute;
- 			top: 200px;
- 			left: -50px;
- 			z-index: 0;
- 			border-radius: 90px;
- 			text-align: center;
- 			line-height: 130px;
- 			font-size: 50px;
- 			color:white;
- 			filter: alpha(opacity:0);
- 			opacity: 0;
- 			 
- 		}
- 		.mo-err{
- 			width: 400px;
- 			height: 130px;
- 			background: rgba(0,0,0,0.5);
- 			position: absolute;
- 			top: 200px;
- 			left: -50px;
- 			z-index: 0;
- 			border-radius: 90px;
- 			text-align: center;
- 			line-height: 130px;
- 			font-size: 50px;
- 			color:white;
- 			filter: alpha(opacity:0);
- 			opacity: 0;
- 			 
- 		}
-	</style>
+	<script src="js/signInUp.js"></script>
 </head>
 <body>
  	<div class="wrap">
  		<div class="logo"></div>
+		<div class="slogan"><img src="img/slogan.png" alt="slogan"/></div>
  		<div class="from-box">
  			<div class="input-box">
- 				<input type="text" class="mobile" placeholder="手机号">
- 				<button class="senmsg">获取验证码</button>
- 				<input type="text" class="vcode" placeholder="验证码">
+				<input type="text" class="mobile" placeholder="手机号" oninput = "value=value.replace(/[^\d]/g,'')" maxlength="11">
+																																														<button class="sendmsg" id="sdbtn" onclick="sendMsg()">获取验证码</button>
+																																			<input type="text" class="vcode" placeholder="验证码" oninput = "value=value.replace(/[^\d]/g,'')" maxlength="6">
  			</div>
  			<div class="infor">新用户登录即自动注册，且代表您已同意<a href="https://h5.ele.me/service/agreement/?spm=a2ogi.12119171.0.0#initTitle=%E7%94%A8%E6%88%B7%E6%9C%8D%E5%8A%A1%E5%8D%8F%E8%AE%AE&key=ruleQue18">《用户服务协议》</a></div>
  			<div class="loginbtn"><input type="button" class="login" value="登录"></div>
@@ -206,7 +46,7 @@
 			</div>
 			<div class="footer-link">
 				<h5 class="footer-link-title" target="_blank"> 关于我们</h5>
-				<a href="#" class="footer-link-item" target="_blank">饿了吗介绍</a>
+				<a href="#" class="footer-link-item" target="_blank">洽柠檬介绍</a>
 				<a href="#" class="footer-link-item" target="_blank">加入我们</a>
 				<a href="#" class="footer-link-item" target="_blank"> 联系我们</a>
 				<a href="#" class="footer-link-item" target="_blank"> 规则中心</a>
@@ -257,130 +97,5 @@
 			<!-- <span class="text-muted">Place sticky footer content here.</span> -->
 		</div>
 	</footer>
- 	<script>
- 		window.onload=function()
- 		{
- 			var oMobile=document.getElementsByClassName("mobile")[0];
- 			var oSenMsg=document.getElementsByClassName("senmsg")[0];
- 			var oVcode=document.getElementsByClassName("vcode")[0];
- 			var oLogin=document.getElementsByClassName("login")[0];
- 			var oMobileErr=document.getElementsByClassName("mobile-err")[0];
- 			var oVcodeErr=document.getElementsByClassName("vcode-err")[0];
-  			var timeCoune=5;//时间间隔长度，根据需要定制，单位为秒。
-			var isTimerCount=timeCoune;
-  			oLogin.onclick=function()
- 			{
-  				if(oMobile.value=="")
- 				{
- 					startMove(oMobileErr,{opacity:100,zIndex:999});
-  					oMobile.focus();
- 					oTim=setInterval(function()
- 					{
- 						if((isTimerCount--)>0)
- 						{
- 							startMove(oMobileErr,{opacity:100,zIndex:999});
- 		 					oMobile.focus();
-		 					console.log(isTimerCount);
- 						}
- 						else
- 						{
- 							startMove(oMobileErr,{opacity:0,zIndex:0});
- 							clearInterval(oTim);
- 		 					isTimerCount=timeCoune;//恢复时间间隔
-		 					console.log(isTimerCount);
- 						};
- 					}, 1000);
- 					
-      			} 
-      			else if(oVcode.value=="")
- 				{
- 					startMove(oVcodeErr,{opacity:100,zIndex:999});
-  					oVcode.focus();
- 					oTim=setInterval(function()
- 					{
- 						if((isTimerCount--)>0)
- 						{
- 							startMove(oVcodeErr,{opacity:100,zIndex:999});
- 		 					oVcode.focus();
-		 					console.log(isTimerCount);
- 						}
- 						else
- 						{
- 							startMove(oVcodeErr,{opacity:0,zIndex:0});
- 							clearInterval(oTim);
- 		 					isTimerCount=timeCoune;//恢复时间间隔
-		 					console.log(isTimerCount);
- 						};
- 					}, 1000);
- 					
-      			} 
-      			else
-      			{
-      			    //登录成功后的操作
-      			}
- 			};
-   		};
- 		//运动框架
- 		function startMove(obj,json,endFun)
- 		{
- 			clearInterval(obj.timer);
- 			obj.timer=setInterval(function()
- 			{
- 				var iStop=true;//假如用户定义的值已全部到位了。
- 				for(var curr in json)
- 				{
- 					var oNumber=0;
- 					if(curr=="opacity")
- 					{
- 						oNumber=Math.round(parseFloat(getStyle(obj,curr))*100);//obj是元素对象，curr是对象的属性，比如说opacity
- 					}
- 					else if(curr=="zIndex")
- 					{
- 						oNumber=parseInt(getStyle(obj,curr));//相对于单位为px的直接取整
- 					}
- 					else
- 					{
- 						oNumber=parseInt(getStyle(obj,curr));
- 					};
- 				var speed=(json[curr]-oNumber)/6;//缓冲运动，这样的算法是为了在运动的时候不至于匀速的。
- 					speed=speed>0?Math.ceil(speed):Math.floor(speed);//对速度进行一个向上或向下的取整，不然的话，如果碰到相对于px单位的可能会存在小数点的情况。
-	 				if(oNumber!=json[curr])
-	 					iStop=false;
-	 				if(curr=="opacity")
-	 				{
-	 					obj.style.filter="alpha(opacity:"+(oNumber+speed)+")";
-	 					obj.style.opacity=(oNumber+speed)/100;
-	 				}
-	 				else if(curr=="zIndex")
-	 				{
-	 					obj.style[curr]=oNumber+speed;
-	 				}
-	 				else
-	 				{
-	 					obj.style[curr]=oNumber+speed+"px";
-	 				}
- 				};
-	 				if(iStop)
-	 				{
-	 					clearInterval(obj.timer);
-	 					if(endFun)endFun();
-	 				}
-
- 			},30);
- 		};
- 		//获取非行间样式框架
- 		function getStyle(obj,name)
- 		{
- 			if(obj.currentStyle)
- 			{
- 				obj=currentStyle[name];
- 			}
- 			else
- 			{
- 				obj=getComputedStyle(obj,false)[name];
- 			}
- 			return obj;
- 		};
- 	</script>
 </body>
 </html>
