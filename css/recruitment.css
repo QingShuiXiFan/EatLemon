@@ -82,7 +82,6 @@ li, ul {
 
 .container {
     margin: 0 auto;
-    height: 500px;
     position: relative;
 }
 
@@ -272,7 +271,8 @@ li, ul {
 }
 
 .index-brands .container[data-v-04dec436] {
-    width: 770px
+    width: 770px;
+    height: 200px;
 }
 
 .index-brands .container > p[data-v-04dec436] {

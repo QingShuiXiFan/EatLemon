@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>个人中心</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/profile.css">
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" /> -->
+   
+    <script src="js/jquery.js"> </script>
+
+    <script src="js/profile.js"></script>
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <div class="container">
+
+        <div class="clearfix">
+            <div class="location"><span>当前位置:</span>
+                <span class="location-current">
+                    <a class="inherit" href="/shop">南京南站</a>
+                </span>
+                <span class="location-change">
+                    <a class="" href="/home">[切换地址]</a>
+
+                </span>
+                <span>
+                    <img src="img/rightarrow.png" class="rightarrow"></span>
+                <span class="" id="loc">个人中心</span>
+            </div>
+        </div>
+        <!-- <div class="profile-sider"> -->
+        <!-- 增加 active 图片替换和颜色替换， 存在问题，第一次访问延时非常大，修改为加载全部的图像然后选择 -->
+        <ul class="profile-sidebar">
+            <li class="profile-sidebar-section">
+                <h2 class="profile-sidebar-sectiontitle">
+                    <img src="img/main.png" class="ico-line-order"> <img src="img/main-active.png" style="display: none;">
+                    <a class="inherit active" href="/profile" id="profile-main">个人中心</a></h2>
+            </li>
+            <li class="profile-sidebar-section">
+                <h2 class="profile-sidebar-sectiontitle">
+                    <img src="img/order.png" class="icon-line-order"> <img src="img/order-active.png" style="display: none;">我的订单</h2>
+                <ul>
+                    <li><a class="inherit" href="/profile/order" id="profile-order">近三个月订单</a></li>
+                </ul>
+            </li>
+            <li class="profile-sidebar-section">
+                <h2 class="profile-sidebar-sectiontitle">
+                    <img src="img/money.png" class="icon-line-order"> <img src="img/money-active.png" style="display: none;">我的资产</h2>
+                <ul>
+                    <li><a class="inherit" href="/profile/hongbao" id="profile-hongbao">我的红包</a></li>
+                    <li><a class="inherit" href="/profile/balance" id="profile-balance">账户余额</a></li>
+                    <li><a class="inherit" href="/profile/points" id="profile-points">我的金币</a></li>
+                </ul>
+            </li>
+            <li class="profile-sidebar-section">
+                <h2 class="profile-sidebar-sectiontitle">
+                    <img src="img/user.png" class="icon-line-order"> <img src="img/user-active.png" style="display: none;">我的资料</h2>
+                <ul>
+                    <li><a class="inherit" href="/profile/info" id="profile-info">个人资料</a></li>
+                    <li><a class="inherit" href="/profile/address" id="profile-address">地址管理</a></li>
+                </ul>
+            </li>
+            <li class="profile-sidebar-section">
+                <h2 class="profile-sidebar-sectiontitle">
+                    <img src="img/collect.png" class="icon-line-order">
+                    <a class="inherit" href="/profile/favor" id="profile-favor">我的收藏</a></h2>
+            </li>
+        </ul>
+        <div class="profile">
+            <div class="profile-panel" style="display: block" id="main">
+
+                <div class="profile-panelcontent">
+                    <div class="profile-info">
+                        <div class="profile-infoitem">
+                            <div class="profile-avatarwrap">
+                                <img alt="洽柠檬00dBG的头像" class="profile-avatar" src="img/20150626204106_na2PG.thumb.700_0.jpg">
+                                <a href="/profile/info" class="profile-edit">编辑资料</a></div>
+                            <div class="profile-perosondata">
+                                <h3 class="profile-name">晚上好，<strong>洽柠檬00dBG</strong></h3>
+                                <p class="profile-tips">晚饭叫外卖，不吸油烟，不洗碗筷！</p>
+                            </div>
+                        </div>
+                        <div class="profile-infoitem"><a class="inherit" href="/profile/hongbao">
+                                <p>我的红包</p>
+                                <p class="profile-infoitem-number hongbao"><span class="number">1</span>个</p>
+                            </a></div>
+                        <div class="profile-infoitem"><a class="inherit" href="/profile/points">
+                                <p>我的金币</p>
+                                <p class="profile-infoitem-number score"><span class="number">0</span>个</p>
+                            </a></div>
+                        <div class="profile-infoitem"><a class="inherit" href="/profile/balance">
+                                <p>账户余额</p>
+                                <p class="profile-infoitem-number balance"><span class="number">0.00</span>元</p>
+                            </a></div>
+                    </div>
+                    <div class="profile-order">
+                        <div class="tabnavigation"><a class="tabnavigation-navitem active">最近订单</a>
+                            <a class="tabnavigation-rightitem profile-allorder" href="/profile/order">查看全部订单&gt;</a>
+                        </div>
+                        <div class="profile-order-content">
+                            <div class="loading" style="display: none">
+                                <img class="loading" src="img/waiting.gif" alt="正在加载">
+                            </div>
+                            <div class="orderblock">
+                                <div class="orderblock-item orderblock-rstinfo clearfix">
+
+                                    <a class="logo" href="#">
+                                        <img alt="商家 LOGO" src="img/4242d76c971f9dccf7024163d7d66png.png"></a>
+                                    <h3 class="name"><a class="inherit " href="#">锅先森台湾卤肉饭(吾悦广场店)</a></h3>
+                                    <p class="product ">美式黑椒牛柳盖浇饭1份</p><a class="productnum" href="order/id/#">
+                                        共<i class="count ">1</i>个菜品&gt;</a>
+                                </div>
+                                <div class="orderblock-item orderblock-time ">2019-01-12 11:49<br></div>
+                                <div class="orderblock-item orderblock-price">
+                                    <p class="total ">¥9.00</p><span></span>
+                                </div>
+                                <div class="orderblock-item orderblock-status">
+                                    <p class="status  end">订单已完成</p><a class="statuslink  " href="order/id/1">订单详情</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="profile-footprint ">
+                        <div class="tabnavigation"><a class="tabnavigation-navitem active">美食足迹</a> <a class="tabnavigation-navitem"
+                                href="/profile/favor">我的收藏</a>
+                            <div class="tabnavigation-rightitem  simplepagination">1/1
+                                <a> <img class="pre-btn icon-profile-left-arrow "> </a>
+                                <a> <img class="next-btn icon-profile-right-arrow "></a></div>
+                        </div>
+                        <div class="footprint-content clearfix">
+                            <div class="loading" style="display: none">
+                                <img class="loading" src="img/waiting.gif" alt="正在加载">
+                            </div>
+                            <a class="rstblock" href="/shop/1">
+                                <div class="rstblock-logo">
+                                    <img class="rstblock-logo-icon" alt="老乡鸡(南京南站绿地之窗店)" src="img/daed65f5aa000f18edfe33aaad139jpeg.jpg">
+                                    <span class="    ">23 分钟</span>
+                                    <div class="elemeicon elemeicon-premiumsign rstblock-logo-premiumsign ">品牌 </div>
+                                </div>
+                                <div class="rstblock-content">
+                                    <div class="rstblock-title  ">老乡鸡(南京南站绿地之窗店)</div>
+                                    <div class="starrating icon-star" filled="4">
+
+                                        <ul>
+                                            <li>&#9733;</li>
+                                            <li>&#9733;</li>
+                                            <li>&#9733;</li>
+                                            <li>&#9733;</li>
+                                            <li>&#9733;</li>
+                                        </ul>
+
+                                    </div>
+                                    <div class="rstblock-cost  ">配送费¥4</div>
+
+
+                                    <div class="rstblock-activity   ">
+                                        <i>票</i>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="profile-panel" id="balance">
+            <h3 class="profile-paneltitle  ">
+                <span class="">账户余额</span>
+                <span class="subtitle"></span></h3>
+            <div class="profile-panelcontent">
+                <div class="balance-summary index">
+                    <p class="balance-tip"><span class="balance-summary-title">当前账户余额：</span> <b class="balance-number  ">100</b>元</p>
+                    <p class="balance-fn"><span class="btn-default balance-btn disabled"></span></p>
+                </div>
+                <div class="balance-detail">
+                    <div class="balance-detail-header">
+                        <h2 class="balance-detail-title">账户资产明细</h2>
+                        <p class="selector-list" label="分类">
+                            <span class="selector-label">分类</span>
+                            <span class="selector-content">
+                                <a class="selector-item active" href="#">全部</a>
+                                <a class="selector-item" href="#">充值</a>
+                                <a class="selector-item" href="#">余额消费</a>
+                                <a class="selector-item" href="#">第三方支付消费</a>
+                                <a class="selector-item" href="#">支付失败退款</a>
+                                <a class="selector-item" href="#">订单退款</a>
+                                <!-- <a class="selector-item" href="#">提现</a> -->
+                            </span></p>
+                        <p class="selector-list" selector="" label="时间"><span class="selector-label ">时间</span>
+                            <span class="selector-content">
+                                <a class="selector-item" href="#">今天</a>
+                                <a class="selector-item" href="#">近7天</a>
+                                <a class="selector-item" href="#">近15天</a>
+                                <a class="selector-item" href="#">1个月</a>
+                            </span>
+                        </p>
+                    </div>
+                    <div class="balance-table">
+                        <div class="balance-table-row balance-table-title">
+                            <span class="balance-table-date">创建时间</span>
+                            <span class="balance-table-type">交易类型</span>
+                            <span class="balance-table-money">金额变更</span>
+                            <span class="balance-table-status">余额</span></div>
+                        <div class="balance-table-row">
+                            <span class="balance-table-date">2018-01-12</span>
+                            <span class="balance-table-type">充值</span>
+                            <span class="balance-table-money">+100</span>
+                            <span class="balance-table-status">100</span>
+                        </div>
+                        <div class="balance-table-row">
+                            <span class="balance-table-date">2018-04-12</span>
+                            <span class="balance-table-type">充值</span>
+                            <span class="balance-table-money">+100</span>
+                            <span class="balance-table-status">200</span>
+                        </div>
+                        <div class="balance-table-row">
+                            <span class="balance-table-date">2018-08-12</span>
+                            <span class="balance-table-type">消费</span>
+                            <span class="balance-table-money">-150</span>
+                            <span class="balance-table-status">150</span>
+                        </div>
+                        <div class="balance-table-row">
+                            <span class="balance-table-date">2018-12-12</span>
+                            <span class="balance-table-type">消费</span>
+                            <span class="balance-table-money">-50</span>
+                            <span class="balance-table-status">100</span>
+                        </div>
+                    </div>
+                    <div class="loading  " content="正在载入资产明细...">
+                        <img src="img/waiting.gif" alt="正在加载" class=" ">正在载入资产明细...</div>
+                </div>
+                <div pagination="" pagination-context="records" pagination-data="recordsData" class="  pagination">
+                    <ul></ul>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="profile-panel" id="points">
+
+            <h3 class="profile-paneltitle ">
+                <span class="">我的金币</span>
+                <span class="subtitle"></span></h3>
+            <div class="profile-panelcontent">
+                <div class="points-summary index ">
+                    <p class="points-tip"><span>当前账户金币：</span> <b class="points-number">100</b>个</p>
+                    <p class="points-link"><a class="btn-link" href="/support/question/hotissue" target="_blank">如何获得金币？</a></p>
+                </div>
+                <h4 class="points-detailtitle ">最近30天金币记录</h4>
+                <div class="points-detail ">
+                    <div class="points-table">
+                        <div class="points-table-row points-table-title">
+                            <span class="points-table-createtime">创建时间</span>
+                            <span class="points-table-delta">金币变化</span>
+                            <span class="points-table-detail">详情</span>
+                        </div>
+                    </div>
+                    <div class="loading">
+                        <img src="img/waiting.gif" alt="正在加载" class="">
+                        正在载入金币记录...</div>
+                </div>
+                <div class="pagination">
+                    <ul>
+                        <li class="points-table-row">
+                            <span class="points-table-createtime">2018-01-12</span>
+                            <span class="points-table-delta">+100</span>
+                            <span class="points-table-detail">注册奖励</span>
+                        </li>
+                        <li class="points-table-row">
+                            <span class="points-table-createtime">2018-04-12</span>
+                            <span class="points-table-delta">+100</span>
+                            <span class="points-table-detail">首次消费奖励</span>
+
+                        </li>
+                        <li class="points-table-row">
+                            <span class="points-table-createtime">2018-09-12</span>
+                            <span class="points-table-delta">-100</span>
+                            <span class="points-table-detail">消费抵扣</span>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="profile-panel" id="order">
+
+            <h3 class="profile-paneltitle"><span>近三个月订单</span>
+                <span class="subtitle "></span></h3><!-- end ngIf: pageTitleVisible -->
+            <div class="profile-panelcontent">
+                <!-- <div class="order-fetchtakeout">
+                    </div> -->
+                <div class="order-extra">
+                    <a href="#" target="_blank">热门问题</a>
+                    <a href="/home" target="_blank">随时关注订单状态</a></div>
+                <div class="loading">
+                    <img src="img/waiting.gif" alt="正在加载">
+                    正在载入数据...</div>
+                <div class="order-nocontent" style="display:none">
+                    <p class="nodata-container">暂无记录，现在就去<a href="/place">订餐</a>吧!</p>
+                </div>
+                <table class="order-list">
+                    <thead>
+                        <tr>
+                            <th>下单时间</th>
+                            <th class="order-list-infoth">订单内容</th>
+                            <th></th>
+                            <th>支付金额（元）</th>
+                            <th>状态</th>
+                            <th>操作</th>
+                        </tr>
+
+                    </thead>
+                    <tbody>
+                        <tr class="timeline">
+                            <td class="ordertimeline-time">
+                                <p >2019-01-12
+                                    11:49</p><i class="ordertimeline-time-icon finish"
+                                    ></i>
+                            </td>
+                            <td class="ordertimeline-avatar"><a  href="/shop/1">
+                                <img src="img/4242d76c971f9dccf7024163d7d66png.png"></a></td>
+                            <td class="ordertimeline-info">
+                                <h3 class="ordertimeline-title">
+                                    <a   href="/shop/1"></a> 
+                                </h3>
+                                <p class="ordertimeline-info-food">
+                                    <a  href="order/id/2102990572027622643">
+                                        <span class="ordertimeline-food ">美式黑椒牛柳盖浇饭1份</span>
+                                      <span class="ordertimeline-info-productnum">1</span> 
+                                      <span>个菜品</span>
+                                    </a>
+                                </p>
+                                <p>订单号: <a href="order/id/111111111111111">111111111111111</a></p>
+                            </td>
+                            <td class="ordertimeline-amount">
+                                <h3 class="ordertimeline-title ordertimeline-price">10.00</h3>
+                            </td>
+                            <td class="ordertimeline-status">
+                                <h3 class="end">订单已完成</h3>
+                            </td>
+                            <td class="ordertimeline-handle"><a class="ordertimeline-handle-detail" 
+                                    href="order/id/2102990572027622643">订单详情</a> 
+                                <a class="ordertimeline-handle-a"
+                                    href="/shop/1">再来一份</a>
+                               
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="pages">
+                    <span>下一页</span></div>
+            </div>
+        </div>
+
+        <div class="profile-panel" id="hongbao">
+
+            <div class="profile-panelcontent">
+                <div class="tabnavigation higher ">
+                    <a class="tabnavigation-navitem">可用红包</a></div>
+                <div class="hongbao-container ">
+                    <div class="loading" content="正在载入红包信息...">
+                        <img src="img/waiting.gif" alt="正在加载">
+                        正在载入红包信息...</div>
+
+                </div>
+                <div pagination="" pagination-context="pageContext" pagination-pagesize="15" class="pagination">
+                    <ul class="hongbao-list clearfix">
+
+                        <li class="hongbaoblock">
+                            <div class="hongbaoblock-count"><span class="hongbaoblock-amount"><em class="">3</em>
+                                    <em class="">.0</em></span>
+                                <p class="hongbaoblock-condition ">满49元可用</p>
+                            </div>
+                            <h3 class="hongbaoblock-name ">洽柠檬红包</h3>
+                            <div class="hongbaoblock-intro">
+                                <p>仅限手机客户端使用</p>
+                                <p class="">2019-01-12<i class="to">至</i>2019-01-18</p>
+                            </div><i class="hongbaoblock-tip "></i>
+                        </li>
+                        <li class="hongbaoblock">
+                            <div class="hongbaoblock-count"><span class="hongbaoblock-amount"><em class="">3</em>
+                                    <em class="">.0</em></span>
+                                <p class="hongbaoblock-condition ">满49元可用</p>
+                            </div>
+                            <h3 class="hongbaoblock-name">洽柠檬红包</h3>
+                            <div class="hongbaoblock-intro">
+                                <p>仅限手机客户端使用</p>
+                                <p class="">2019-01-12<i class="to">至</i>2019-01-18</p>
+                            </div><i class="hongbaoblock-tip "></i>
+                        </li>
+
+
+                    </ul>
+                </div>
+                <div class="exchangedialog dialog " style="display: none;">
+                    <div class="dialog-close icon-close"></div>
+                    <div class="dialog-content">
+                        <h3>输入兑换码，兑换红包！</h3>
+                        <form>
+                            <div class="formfield " form-field="" model="exChangeData" property="exchange_code"><label
+                                    class=""></label><input placeholder="请输入兑换码" class="">
+                                <div class="formfield-hint">
+                                    <span></span></div>
+                            </div>
+                            <div class="captchafield formfield" form-field=""><label></label><input placeholder="请输入验证码">
+                                <a href="#">看不清换一张</a>
+                                <div class="formfield-hint">
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div><button class="btn-primary btn-lg" type="submit">确定</button></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="profile-panel" id="info">
+
+            <h3 class="profile-paneltitle"><span>个人资料</span>
+                <span class="subtitle"></span></h3>
+            <div class="profile-panelcontent">
+                <div class="profileinfo">
+                    <p class="profileinfo-item"><span class="profileinfo-label">头像</span> <span class="profileinfo-face">
+                            <img alt="洽柠檬00dBG" src="img/20150626204106_na2PG.thumb.700_0.jpg"></span></p>
+                    <p class="profileinfo-item"><span class="profileinfo-label">用户名</span>
+                        <span><span class="profileinfo-value">洽柠檬00dBG</span></span></p>
+                </div>
+            </div>
+        </div>
+        <div class="profile-panel" id="address">
+
+            <h3 class="profile-paneltitle"><span>地址管理</span>
+                <span class="subtitle "></span></h3><!-- end ngIf: pageTitleVisible -->
+            <div class="profile-panelcontent">
+                <div class="loading" loading="" content="正在载入地址...">
+                    <img src="img/waiting.gif" alt="正在加载">
+                    正在载入地址...</div>
+                <div class="desktop-addresslist clearfix">
+
+                    <div class="desktop-addressblock ">
+                        <div class="desktop-addressblock-buttons">
+                            <button class="desktop-addressblock-button edit">修改</button>
+                            <button class="desktop-addressblock-button remove">删除</button></div>
+                        <div class="desktop-addressblock-name  ">洽柠檬 <span class=" ">先生</span></div>
+                        <div class="desktop-addressblock-address  ">江苏省如皋电子商务产业园
+                            江苏省南通市如皋市万寿南路766号A栋</div>
+                        <div class="desktop-addressblock-mobile  "> 1111224444</div>
+                        <div class="desktop-addressblock-mask " style="display:none"></div>
+                        <div class="desktop-addressblock-removebuttons " style="display:none;">
+                            <p>确定删除收货地址?</p><button class="confirmdelete">确定</button>
+                            <button class="canceldelete">取消</button>
+                        </div>
+                    </div>
+
+                    <div class="desktop-addressblock">
+                        <div class="desktop-addressblock-buttons">
+                            <button class="desktop-addressblock-button edit">修改</button>
+                            <button class="desktop-addressblock-button remove">删除</button>
+                        </div>
+                        <div class="desktop-addressblock-name ">洽柠檬 <span class="">先生</span></div>
+                        <div class="desktop-addressblock-address  ">如皋软件园人才公寓
+                            江苏省南通市如皋市城南街道高新技术产业开发区X</div>
+                        <div class="desktop-addressblock-mobile  "> 1111224444</div>
+                        <div class="desktop-addressblock-mask" style="display:none"></div>
+                        <div class="desktop-addressblock-removebuttons" style="display:none;">
+                            <p>确定删除收货地址?</p>
+                            <button class="confirmdelete">确定</button>
+                            <button class="canceldelete">取消</button>
+                        </div>
+                    </div>
+                    <button class="desktop-addressblock desktop-addressblock-addblock">
+                        <i class="">+</i>添加新地址
+                    </button>
+                </div>
+            </div>
+
+        </div>
+        <div class="profile-panel" id="favor">
+
+            <h3 class="profile-paneltitle"><span class=" ">我的收藏</span>
+                <span class="subtitle  "></span></h3>
+            <div class="profile-panelcontent">
+                <div class="loading">
+                    <img src="img/waiting.gif" alt="正在加载">正在载入商家信息...</div>
+                <div class="favor-restaurants">
+                    <h4 class="favor-title">当前区域共有<span class=" ">3</span>家可配送商家</h4>
+                    <div class="clearfix">
+
+                        <div class="resinfo">
+                            <a class="rstblock" href="/shop/1">
+                                <div class="rstblock-logo">
+                                    <img class="rstblock-logo-icon" alt="老乡鸡(南京南站绿地之窗店)" src="img/daed65f5aa000f18edfe33aaad139jpeg.jpg">
+                                    <span class="    ">23 分钟</span>
+                                    <div class=" rstblock-logo-premiumsign ">品牌 </div>
+                                </div>
+                                <div class="rstblock-content">
+                                    <div class="rstblock-title  ">老乡鸡(南京南站绿地之窗店)</div>
+                                    <div class="starrating icon-star" filled="4">
+
+                                        <ul>
+                                            <li>&#9733;</li>
+                                            <li>&#9733;</li>
+                                            <li>&#9733;</li>
+                                            <li>&#9733;</li>
+                                            <li>&#9733;</li>
+                                        </ul>
+
+                                    </div>
+                                    <div class="rstblock-cost  ">配送费¥4</div>
+
+
+                                    <div class="rstblock-activity   ">
+                                        <i>票</i>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="rstblock" target="_blank" href="/shop/E13186055157827446004">
+                                <div class="rstblock-logo">
+                                    <img class="rstblock-logo-icon" alt="汉堡王(如皋吾悦24495)" src="img/e296c4645b581bc7c74ca82886753jpeg.jpeg"
+                                        width="70" height="70">
+                                    <span class="">41 分钟</span>
+                                    <div class="rstblock-logo-premiumsign ">品牌</div>
+                                </div>
+                                <div class="rstblock-content">
+                                    <div class="rstblock-title ">汉堡王(如皋吾悦24495)</div>
+                                    <div class="starrating icon-star" filled="4">
+
+                                        <ul>
+                                            <li>&#9733;</li>
+                                            <li>&#9733;</li>
+                                            <li>&#9733;</li>
+                                            <li>&#9733;</li>
+                                            <li>&#9733;</li>
+                                        </ul>
+
+                                    </div>
+                                    <div class="rstblock-cost ">配送费¥1</div>
+                                    <div class="rstblock-activity ">
+                                        <i>票</i>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a class="rstblock" href="/shop/E11898466241960054995">
+                                <div class="rstblock-logo">
+                                    <img class="rstblock-logo-icon" alt="1点点(中山2店)" width="70" height="70" src="img/81564a6d806cbc7c61878b19e17cepng.png">
+                                    <span class=" ">44 分钟</span>
+                                    <div class="rstblock-logo-premiumsign ">品牌</div>
+                                </div>
+                                <div class="rstblock-content">
+                                    <div class="rstblock-title ">1点点(中山2店)</div>
+
+                                    <div class="starrating icon-star" filled="4">
+
+                                        <ul>
+                                            <li>&#9733;</li>
+                                            <li>&#9733;</li>
+                                            <li>&#9733;</li>
+                                            <li>&#9733;</li>
+                                            <li>&#9733;</li>
+                                        </ul>
+
+                                    </div>
+
+                                    <div class="rstblock-cost ">远距离配送费¥360.5</div>
+                                    <div class="rstblock-activity ">
+                                        <i class="">保</i> </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="favor-restaurants clearfix">
+                    <h4 class="favor-title">当前区域不可配送的商家</h4>
+                    <div class="clearfix">
+
+                        <div class="nodata" content="暂无不可配送商家">
+                            <p class="nodata-container  ">暂无不可配送商家</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
