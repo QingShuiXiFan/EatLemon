@@ -7,11 +7,16 @@
     <title>个人中心</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/profile.css">
-    <!-- <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" /> -->
    
     <script src="js/jquery.js"> </script>
 
     <script src="js/profile.js"></script>
+    <script>
+    $(function(){ 
+        $("header").load("header.html");
+        $("footer").load("footer.html");
+    })
+    </script>
 </head>
 
 <body>
@@ -26,7 +31,7 @@
                     <a class="inherit" href="/shop">南京南站</a>
                 </span>
                 <span class="location-change">
-                    <a class="" href="/home">[切换地址]</a>
+                    <a class="inherit" href="/home">[切换地址]</a>
 
                 </span>
                 <span>
@@ -590,7 +595,9 @@
             </div>
         </div>
     </div>
+    <footer>
 
+    </footer>
 
 </body>
 
