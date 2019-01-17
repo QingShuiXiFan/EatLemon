@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+p,span{
+    cursor: default;
+}
+body {
+    background: rgb(247, 247, 247);
+}
+.header_bg {
+    background: orange;
+    height: 75px;
+}
+
+.header {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header .logo {
+    float: left;
+
+}
+
+.header .logo a img {
+    background: orange;
+}
+
+.header .nav ul {
+    margin: 0 100px;
+}
+
+.header .nav ul li {
+    padding-left: 50px;
+    float: left;
+    height: 75px;
+    width: 90px;
+    text-align: center;
+}
+
+.header .nav ul li a {
+    font-size: 22px;
+    line-height: 75px;
+}
+
+.header .header_right {
+    position: relative;
+}
+
+.header .header_right .user_inf {
+    float: right;
+    text-align: right;
+    padding-right: 30px;
+
+}
+
+.header .header_right .user_inf span {
+    font-size: 22px;
+    color: #fff;
+    cursor: default;
+}
+
+.header .header_right .user_inf a:nth-child(2) {
+    line-height: 70px;
+}
+
+.header_right .user_center {
+    position: absolute;
+    top: 50px;
+
+}
+
+.header_right .user_center ul {
+    background: #ffffff;
+    border: 1px solid rgb(247, 247, 247);
+    box-sizing: border-box;
+    width: 120px;
+    height: 150px;
+}
+
+.header_right .user_center li {
+    height: 30px;
+    width: 120px;
+    text-align: center;
+}
+
+.header_right .user_center li:hover {
+    background: rgb(238, 238, 238);
+}
+
+.header_right .user_center li a {
+    line-height: 30px;
+    color: #000;
+}

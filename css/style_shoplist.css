@@ -5,7 +5,6 @@
 body{
     display: block;
     background: #f7f7f7;
-    padding-right: 35px;
 }
 a{
     text-decoration: none;
@@ -17,12 +16,16 @@ ul,ol{
 }
 .topbar{
     font-size: 14px;
-    width: 960px;
+    /* width: 1200px; */
     height: 60px;
     display: block;
     line-height: 60px;
     background: rgb(255, 165, 0);
-    margin: 0 auto;
+}
+.topbar img {
+    height: 50px;
+    background-color: white;
+    border-radius: 5px;
 }
 .topbar div{
     display: block;
@@ -50,7 +53,7 @@ ul,ol{
 }
 .main{
     font-size: 14px;
-    width: 960px;
+    width: 1200px;
     display: block;
     line-height: 60px;
     margin: 0 auto;    
@@ -61,7 +64,7 @@ ul,ol{
 }
 .main .recent{
     font-size: 14px;
-    width: 960px;
+    width: 1200px;
     margin: 0 auto;
 }
 /* .recent div{
