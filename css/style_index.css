@@ -2,18 +2,18 @@
     padding: 0;
     margin: 0;
 }
-body{
-    height: 500px;
-}
-.header{
-    height: 500px;
+
+.header {
+    height: 600px;
     background-color: orange;
 }
-.nav{
+
+.nav {
     height: 100px;
     line-height: 100px;
 }
-.nav #slogan{
+
+.nav #slogan {
     float: left;
     width: 200px;
     height: 100px;
@@ -21,53 +21,62 @@ body{
     font-family: 华文新魏, serif;
     font-size: 20px;
 }
-.nav .signInUp{
+
+.nav .signInUp {
     float: right;
     padding-right: 200px;
     width: 300px;
     height: 100px;
     line-height: 100px;
 }
-.nav img{
+
+.nav img {
     height: 50px;
     margin-left: 250px;
     background-color: white;
     border-radius: 5px;
 }
-.nav a{
+
+.nav a {
     text-decoration: none;
     color: white;
     float: left;
 }
-.nav a:hover{
+
+.nav a:hover {
     color: lightgray;
 }
-.nav p{
+
+.nav p {
     float: left;
     width: 20px;
     text-align: center;
     color: white;
 }
-.nav #join{
+
+.nav #join {
     float: right;
     margin-top: 35px;
     margin-right: 100px;
     width: 100px;
     height: 30px;
-    background-color: rgb(189, 183, 107);
+    background-color: #c5464a;
     border-radius: 5px;
     line-height: 30px;
     text-align: center;
 }
-.nav #join:hover{
+
+.nav #join:hover {
     background-color: rgb(195, 176, 145);
     color: white;
 }
-.bigLogo{
+
+.bigLogo {
     height: 200px;
     text-align: center;
 }
-.bigLogo .two{
+
+.bigLogo .two {
     width: 240px;
     height: 100px;
     margin-top: 80px;
@@ -76,13 +85,15 @@ body{
     border: 1px solid white;
     border-radius: 5px;
 }
-.bigLogo .beforeLogo{
+
+.bigLogo .beforeLogo {
     float: left;
     height: 100px;
     width: 80px;
     margin: 0 auto;
 }
-.bigLogo .beforeLogo #bigSlogan{
+
+.bigLogo .beforeLogo #bigSlogan {
     height: 98px;
     font-size: 30px;
     font-family: 黑体, serif;
@@ -91,54 +102,65 @@ body{
     text-align: center;
     color: white;
 }
-.bigLogo .logo{
+
+.bigLogo .logo {
     float: left;
 }
-.bigLogo .logo img{
+
+.bigLogo .logo img {
     height: 100px;
     border-radius: 5px;
     background-color: white;
 }
-.searchBar{
+
+.cityinput {
+    float: left;
+    width: 60px;
+    height: 42px;
+}
+
+.searchBar {
     height: 200px;
     text-align: center;
 }
+
 form {
-    position:relative;
-    width:600px;
-    margin:0 auto;
+    position: relative;
+    width: 600px;
+    margin: 0 auto;
 }
-input,button {
-    border:none;
-    outline:none;
-}
-input {
-    width:500px;
-    height:42px;
-    padding-left:13px;
-}
+
 button {
-    height:46px;
-    width:42px;
-    cursor:pointer;
-    position:absolute;
+    border: none;
+    outline: none;
+    height: 46px;
+    width: 42px;
+    cursor: pointer;
+    position: absolute;
 }
-.searchBar input {
-    border:2px solid #c5464a;
-    border-radius:5px;
+
+.searchBar .add {
+    outline: none;
+    width: 500px;
+    height: 42px;
+    padding-left: 13px;
+    border: 2px solid #c5464a;
+    border-radius: 5px;
     background: white;
-    top:0;
-    right:0;
+    top: 0;
+    right: 0;
 }
+
 .searchBar button {
-    background:#c5464a;
-    border-radius:0 5px 5px 0;
-    width:60px;
-    top:0;
-    right:0;
+    background: #c5464a;
+    border-radius: 0 5px 5px 0;
+    width: 60px;
+    top: 0;
+    right: 0;
 }
+
 .searchBar button:before {
-    content:"搜索";
-    font-size:13px;
-    color:#F9F0DA;
+    content: "搜索";
+    font-size: 13px;
+    color: #F9F0DA;
 }
