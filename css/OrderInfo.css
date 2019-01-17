@@ -14,7 +14,7 @@ ul{
 
 .bg{
     background-color:rgb(240,240,240);
-    height:2000px;
+    height:700px;
 }
 
 .top{
@@ -409,13 +409,13 @@ ul{
     border:4px solid orangered;
     color:white;
     background:orangered;
-    margin-left:20px;
+    margin-left:30px;
     margin-top:50px;
 }
 
 .app_img {
     float: left;
-    margin-left: 297px;
+    margin-left: 287px;
     margin-top: 30px;
 
 }
@@ -437,10 +437,74 @@ ul{
 }
 
 .addressdialog{
-    width:1000px;
-    height:800px;
-    position:fixed;
-    top:50%;
-    left:50%;
-    margin:auto;
+    background: white;
+    width: 500px;
+    height: 300px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    z-index: 999;
+    margin: -200px 0 0 -350px;
+    border:2px solid rgb(200,200,200);
+    line-height:35px;
+}
+
+.addressdialog-header{
+    padding-top:15px;
+    padding-left:10px;
+    font-size:20px;
+    font-weight:700;
+}
+
+.addressformfield label {
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.addressformfield input {
+    padding-left: 10px;
+    width:150px;
+}
+
+.addressformfield_sexfield label{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.addressformfield_sexfield .adds {
+    padding-left:10px
+}
+
+.adds label{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.addressformfield_addressfield label {
+    padding-top: 20px;
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.addressformfield_addressfield input{
+    width:300px;
+}
+
+.addressformfield input{
+    margin-left:16px;
+    width:300px;
+}
+
+#adddd{
+    margin-left:32px;
+}
+
+#asss {
+    margin-left: 42px;
+    width:300px;
+}
+
+.addressform-buttons{
+    margin-left:10px;
 }
