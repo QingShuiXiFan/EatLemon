@@ -4,14 +4,14 @@
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>商家页面</title>
+    <title>洽柠檬-商家页面</title>
 	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
 	<script src="js/footer.js"></script>
 	<script type="text/javascript">
 		$(function(){
 			$(".rstcategories .res").click(function(){
-				$(".rstcategories .res").removeClass("active");
-				$(this).addClass("active");
+				$(".rstcategories .res").removeClass("visited");
+				$(this).addClass("visited");
 			})
 		})
 	</script>
@@ -30,7 +30,7 @@
 						<img src="img/logo2.png" alt="logo">
 					</a>
 				</h1>
-				<a href="#" class="topbar-item topbar-homepage focus">首页</a>
+				<a href="index.html" class="topbar-item topbar-homepage focus">首页</a>
 				<a href="#" class="topbar-item topbar-order">我的订单</a>
 				<a href="#" class="topbar-item topbar-about">关于</a>				
 			</li>
@@ -56,7 +56,7 @@
 			</div>
 			<div class="rstcategories">
 				<span class="resclassify">商家分类:</span>
-				<a class="res active" href="">全部商家</a>
+				<a class="res visited" href="">全部商家</a>
 				<a class="res" href="">美食</a>
 				<a class="res" href="">快餐便当</a>
 				<a class="res" href="">特色菜系</a>

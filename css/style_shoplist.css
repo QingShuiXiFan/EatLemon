@@ -147,7 +147,7 @@ button, input{
     display: inline-block;
     margin: 5px 6px;
 }
-.rstcategories .res.active {
+.rstcategories .res.visited {
     line-height: 36px;
     background-color: #f6f6f6;
     border-radius: 0;
