@@ -22,6 +22,11 @@ ul,ol{
     line-height: 60px;
     background: rgb(255, 165, 0);
 }
+.topbar img {
+    height: 50px;
+    background-color: white;
+    border-radius: 5px;
+}
 .topbar div{
     display: block;
 }
