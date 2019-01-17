@@ -99,6 +99,8 @@ body {
     box-sizing: border-box;
     width: 120px;
     height: 150px;
+    position: relative;
+    z-index: 999;
 }
 
 .header_right .user_center li {
