@@ -43,6 +43,7 @@ $(function () {
         var bool = $("#accept").prop("checked");
         if(bool){
             closeWindow();
+            window.location.href="shoplist.html";
         }
         else {
 
