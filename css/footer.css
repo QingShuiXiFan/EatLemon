@@ -5,25 +5,28 @@ footer {
 
 }
 
-.container {
+footer .container {
     width: 1180px;
     font-size: 14px;
     margin: 0 auto;
 
 }
+footer .inherit{
+    cursor: pointer;
+}
 
-.clearfix {
+footer .clearfix {
     clear: both;
 }
 
-.footer-link {
+footer .footer-link {
     margin-top: 30px;
     float: left;
     width: 15%;
     /* height: 300px; */
 }
 
-.footer-link-title {
+footer .footer-link-title {
     font-size: 14px;
     line-height: 30px;
     padding: 0px;
@@ -32,7 +35,7 @@ footer {
     font-weight: normal;
 }
 
-.footer-link-item {
+footer .footer-link-item {
     color: #999;
 
     text-decoration: none;
@@ -42,13 +45,13 @@ footer {
     height: 24px;
 }
 
-.footer-link-item:hover {
+footer .footer-link-item:hover {
     color: #999;
 
     text-decoration: none;
 }
 
-.footer-contect {
+footer .footer-contect {
     padding-left: 3%;
     border-left: 1px #e6e6e6 solid;
     width: 23%;
@@ -58,7 +61,7 @@ footer {
     margin-top: 30px;
 }
 
-.footer-contect-item {
+footer .footer-contect-item {
     margin-bottom: 12px;
     color: #666;
     font-size: 14px;
@@ -69,17 +72,17 @@ footer {
     /* border: red 1px solid; */
 }
 
-.footer-contect-item a {
+footer .footer-contect-item a {
     color: #666;
     text-decoration: none;
 }
 
-.footer-contect-item a:hover {
+footer .footer-contect-item a:hover {
     color: #000000;
     text-decoration: none;
 }
 
-.icon-wechat {
+footer .icon-wechat {
     vertical-align: middle;
     background: url(../img/weixin.png) no-repeat;
     display: inline-block;
@@ -89,12 +92,12 @@ footer {
 
 }
 
-.icon-wechat:hover {
+footer .icon-wechat:hover {
 
     background: url(../img/weixin-hover.png) no-repeat;
 }
 
-.icon-webo {
+footer .icon-webo {
     vertical-align: middle;
     background: url(../img/weibo.png) no-repeat;
     display: inline-block;
@@ -104,11 +107,11 @@ footer {
 
 }
 
-.icon-webo:hover {
+footer .icon-webo:hover {
     background: url(../img/weibo-hover.png) no-repeat;
 }
 
-.footer-mobile {
+footer .footer-mobile {
     width: 256px;
     float: right;
     margin-top: 20px;
@@ -117,16 +120,16 @@ footer {
 
 }
 
-.footer-mobile>a {
+footer .footer-mobile>a {
     float: left;
 }
 
-.footer-mobile>.footer-mobile-content {
+footer .footer-mobile>.footer-mobile-content {
     margin-left: 10px;
     float: left;
 }
 
-.footer-mobile-content h3 {
+footer .footer-mobile-content h3 {
     /* display: inline; */
     font-size: 16px;
     color: #333;
@@ -134,40 +137,44 @@ footer {
     line-height: 30px;
 }
 
-.footer-mobile-content p {
+footer .footer-mobile-content p {
     color: #666;
     font-size: 12px;
 }
 
 
-.dropbox {
+footer .dropbox {
     display: none;
     position: relative;
     top: -150px;
 
 }
 
-.footer-copyright {
+footer .footer-copyright {
     font-size: 12px;
     text-align: center;
     padding-top: 60px;
 }
 
-.footer-copyright h5.owner {
+footer .footer-copyright h5.owner {
     color: #000000;
     font-size: 12px;
     text-align: center;
+    margin: 20px 0;
+    
 }
-.footer-copyright a{
+
+footer .footer-copyright a{
     color: inherit;
     text-decoration: none;
 }
-.footer-police a{
+footer .footer-police a{
     color: inherit;
     text-decoration: none;
 }
-.footer-police {
+footer .footer-police {
     
     font-size: 14px;
     text-align: center;
+    padding:  10px 0;
 }
