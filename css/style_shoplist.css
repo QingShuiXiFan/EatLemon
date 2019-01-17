@@ -239,14 +239,11 @@ button, input{
     white-space: nowrap;
     display: inline-block;
     margin: 5px 6px;
-}
-.rstcategories .res.visited {
-    line-height: 36px;
-    background-color: #f6f6f6;
-    border-radius: 0;
-    margin: 0;
     padding: 0 16px;
-    height: 38px;
+    line-height: 36px;
+}
+.rstcategories .res.li_active {
+    background-color: #f6f6f6;
 }
 .rstrestaurants {
     position: relative;

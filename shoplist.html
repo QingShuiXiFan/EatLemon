@@ -17,8 +17,11 @@
                 $(".user_center").hide();
              })  
 			$(".rstcategories .res").click(function(){
-				$(".rstcategories .res").removeClass("visited");
-				$(this).addClass("visited");
+				$(".rstcategories .res").removeClass("li_active");
+				$(this).addClass("li_active");
+			})
+			$("#fetchMoreRst").click(function(){
+				
 			})
 		})
 	</script>
@@ -77,11 +80,11 @@
 			</div>
 			<div class="rstcategories">
 				<span class="resclassify">商家分类:</span>
-				<a class="res visited" href="">全部商家</a>
-				<a class="res" href="">美食</a>
-				<a class="res" href="">快餐便当</a>
-				<a class="res" href="">特色菜系</a>
-				<a class="res" href="">异国料理</a>
+				<a class="res li_active" href="javascript:void(0)">全部商家</a>
+				<a class="res" href="javascript:void(0)">美食</a>
+				<a class="res" href="javascript:void(0)">快餐便当</a>
+				<a class="res" href="javascript:void(0)">特色菜系</a>
+				<a class="res" href="javascript:void(0)">异国料理</a>
 			</div>
 			<div class="rstrestaurants">
 				<div class="rststream" style="height: 564px">
@@ -342,7 +345,7 @@
 						</div>
 					</div>
 				</div>
-				<div id="fetchMoreRst"><a href="#">点击载入更多商家…</a></div>
+				<div id="fetchMoreRst"><a href="javascript:void(0)">点击载入更多商家…</a></div>
 			</div>
 		</div>
 	</div>
