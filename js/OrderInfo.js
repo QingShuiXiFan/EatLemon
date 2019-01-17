@@ -79,6 +79,8 @@ $(document).ready(function () {
         }
         else { $(".set_location_sex").val(sval); }
         $(".set_location_loa").val($("#asss").val() + $(".xiangxi").val());
+        $(".set_location_name").width(textWidth($(".set_location_name").val()));
+        $(".set_location_loa").width(textWidth($(".set_location_loa").val()));
     });
     $("#quxiao").click(function () {
         $(".addressdialog").hide();
