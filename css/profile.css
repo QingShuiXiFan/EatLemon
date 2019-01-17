@@ -9,10 +9,8 @@ ul {
 }
 
 
-header {
-    height: 60px;
-    padding-right: 35px;
-
+header{
+    margin-bottom: 20px;
 }
 
 body {
@@ -20,7 +18,7 @@ body {
     background: #f7f7f7;
     margin: 0px;
     /* padding: 0px; */
-    padding-right: 35px
+    /* padding-right: 35px */
 }
 
 a {
