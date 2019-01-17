@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>登录</title>
+	<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" name="viewport"/>
+	<meta content="yes" name="apple-mobile-web-app-capable"/>
+	<meta content="black" name="apple-mobile-web-app-status-bar-style"/>
+	<meta content="telephone=no" name="format-detection"/>
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/signInUp.css">
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/signInUp.js"></script>
+</head>
+<body>
+ 	<div class="wrap">
+ 		<div class="logo"></div>
+		<div class="slogan"><img src="img/slogan.png" alt="slogan"/></div>
+ 		<div class="from-box">
+ 			<div class="input-box">
+				<input type="text" class="mobile" placeholder="手机号" oninput = "value=value.replace(/[^\d]/g,'')" maxlength="11">
+																																														<button class="sendmsg" id="sdbtn" onclick="sendMsg()">获取验证码</button>
+																																			<input type="text" class="vcode" placeholder="验证码" oninput = "value=value.replace(/[^\d]/g,'')" maxlength="6">
+ 			</div>
+ 			<div class="infor">新用户登录即自动注册，且代表您已同意<a href="https://h5.ele.me/service/agreement/?spm=a2ogi.12119171.0.0#initTitle=%E7%94%A8%E6%88%B7%E6%9C%8D%E5%8A%A1%E5%8D%8F%E8%AE%AE&key=ruleQue18">《用户服务协议》</a></div>
+ 			<div class="loginbtn"><input type="button" class="login" value="登录"></div>
+ 		</div>
+ 		<div class="mobile-err">请填写手机号</div>
+ 		<div class="vcode-err">请填写验证码</div>
+  	</div>
+	<footer style="margin-top: 0; background: #f7f7f7;">
+		<div class="container clearfix">
+
+			<div class="footer-link">
+
+				<h5 class="footer-link-title">用户帮助 </h5>
+				<a href="#" class="footer-link-item" target="_blank"> 我的客服</a>
+			</div>
+			<div class="footer-link">
+				<h5 class="footer-link-title"> 商务合作</h5>
+				<a href="#" class="footer-link-item" target="_blank">我要开店 </a>
+				<a href="#" class="footer-link-item" target="_blank">加盟指南</a>
+				<a href="#" class="footer-link-item" target="_blank"> 市场合作</a>
+				<a href="#" class="footer-link-item" target="_blank">开放平台</a>
+
+			</div>
+			<div class="footer-link">
+				<h5 class="footer-link-title" target="_blank"> 关于我们</h5>
+				<a href="#" class="footer-link-item" target="_blank">洽柠檬介绍</a>
+				<a href="#" class="footer-link-item" target="_blank">加入我们</a>
+				<a href="#" class="footer-link-item" target="_blank"> 联系我们</a>
+				<a href="#" class="footer-link-item" target="_blank"> 规则中心</a>
+				<a href="#" class="footer-link-item" target="_blank"> 隐私政策</a>
+			</div>
+			<div class="footer-contect">
+				<div class="footer-contect-item">24小时客服热线 : <a class="inherit" href="tel:12344321">12344321</a></div>
+				<div class="footer-contect-item">
+					<span> 关注我们 : </span>
+
+					<div class="icon-wechat">
+
+						<div class="dropbox">
+							<img src="img/15475279958.png" alt="微信号：洽柠檬">
+
+						</div>
+					</div>
+					<a href="http://www.weibo.com/" class=icon-webo target="_blank">
+					</a>
+				</div>
+			</div>
+			<div class="footer-mobile">
+				<a href="#" target="_blank">
+					<img src="img/15475277778.png" class="footer-mobile-icon" alt="扫一扫下载洽柠檬手机 App"></a>
+				<div class="footer-mobile-content">
+					<h3>下载手机版</h3>
+					<p>扫一扫,手机订餐方便</p>
+				</div>
+			</div>
+			<div class="footer-copyright clearfix">
+
+
+				<h5 class="owner">所有方：洽柠檬有限公司 | <a href="http://www.baidu.com/s&wd=洽柠檬"> 营业执照</a> </h5>
+				<p>
+					增值电信业务许可证 : <a href="#">沪B1-201511111 </a> | <a href="">沪ICP备 01115555</a> | <a href="#">上海工商行政管理</a>
+					Copyright ©2008-2018 qianingmeng, All Rights
+					Reserved.互联网药品信息服务资格证书 编号：（沪）-经营性-2019-0111
+
+				</p>
+
+			</div>
+			<div class="footer-police container">
+				<a href="#" rel="nofollow" target="_blank">
+					<img alt="已通过沪公网备案，备案号 00001111000111" src="#"
+						 height="30">
+				</a>
+			</div>
+			<!-- <span class="text-muted">Place sticky footer content here.</span> -->
+		</div>
+	</footer>
+</body>
+</html>
