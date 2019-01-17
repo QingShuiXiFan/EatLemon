@@ -9,6 +9,13 @@
 	<script src="js/footer.js"></script>
 	<script type="text/javascript">
 		$(function(){
+			$(".user_center").hide();
+            $(".header .header_right .user_inf").mouseover(function () {
+                $(".user_center").show();
+            })
+            $(".header .header_right .user_inf").mouseleave(function () {
+                $(".user_center").hide();
+             })  
 			$(".rstcategories .res").click(function(){
 				$(".rstcategories .res").removeClass("visited");
 				$(this).addClass("visited");
@@ -22,20 +29,34 @@
 	</style>
 </head>
 <body>
-	<header class="topbar">
-		<ul>
-			<li>
-				<h1 class="logo">
-					<a href="index.html" class="icon-logo">
-						<img src="img/logo2.png" alt="logo">
-					</a>
-				</h1>
-				<a href="index.html" class="topbar-item topbar-homepage focus">首页</a>
-				<a href="#" class="topbar-item topbar-order">我的订单</a>
-				<a href="#" class="topbar-item topbar-about">关于</a>				
-			</li>
-		</ul>
-	</header>
+	<div class="header_bg">
+		<div class="header">
+			<div class="logo"><a href="javascript:void(0)"><img src="img/logo.png" alt="" style="height: 75px"></a></div>
+			<div class="nav">
+				<ul>
+					<li><a href="javascript:void(0)">首页</a></li>
+					<li><a href="javascript:void(0)">我的订单</a></li>
+					<li><a href="javascript:void(0)">加盟合作</a></li>
+					<li><a href="javascript:void(0)">公司简介</a></li>
+				</ul>
+			</div>
+			<div class="header_right">
+				<div class="user_inf">
+					<span>恰柠檬</span>
+					<a href="javascript:void(0)"><img src="img/jt1.jpg" alt=""></a>
+					<div class="user_center">
+						<ul>
+							<li><a href="javascript:void(0)">个人中心</a></li>
+							<li><a href="javascript:void(0)">我的收藏</a></li>
+							<li><a href="javascript:void(0)">我的地址</a></li>
+							<li><a href="javascript:void(0)">个人中心</a></li>
+							<li><a href="javascript:void(0)">个人中心</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 	<div class="main">
 		<div class="recent">
 			<div class="rstlocation">
@@ -324,6 +345,34 @@
 				<div id="fetchMoreRst"><a href="#">点击载入更多商家…</a></div>
 			</div>
 		</div>
+	</div>
+	<div class="cart">
+		<a href="javascript:void(0)">
+			<div class="cart_toggle">
+				<span>总价:</span>
+				<span>¥500</span>
+				<span>配送费:¥0</span>
+			</div>
+		</a>
+		<a href="javascript:void(0) ">去结算>></a>
+	</div>
+	<div id="cart_context" class="cart_context">
+		<ul>
+			<li>
+				<span>购物车</span>
+				<a href="javascript:void(0)">[清空]</a>
+			</li>
+			<!--<li>-->
+				<!--<span class="cart_span_1">进店必买</span>-->
+				<!--<div class="cart_div_1">-->
+					<!--<a href="javascript:void(0)">-</a>-->
+					<!--<input type="text" value="1" readonly="readonly">-->
+					<!--<a href="javascript:void(0)">+</a>-->
+				<!--</div>-->
+				<!--<span class="cart_span_2">39.2</span>-->
+			<!--</li>-->
+		</ul>
+		<div class="clear"></div>
 	</div>
     <footer>
         <div class="container clearfix">
