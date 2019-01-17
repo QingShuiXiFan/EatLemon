@@ -64,6 +64,7 @@ window.onload=function()
         }
         else
         {
+            window.location.href="shoplist.html";
             //登录成功后的操作
         }
     };
